@@ -3,9 +3,23 @@
 @tailwind utilities;
 
 
+@layer base {
+    div > ul > li > a {
+        @apply bold-16 flexCenter cursor-pointer text-gray-10  transition-all hover:text-green-10
+    }
+
+    ul > li > a {
+        @apply   cursor-pointer text-gray-10  transition-all hover:text-green-10
+    }
+}
+
 @layer utilities {
+
+
+
+
     .btn_dark_green {
-        @apply bg-green-90 px-4 py-2 text-white transition-all hover:bg-black
+        @apply px-4 py-2 text-white transition-all hover:bg-black
     }
 
     .max-container {
@@ -32,9 +46,6 @@
         @apply flex items-center justify-end;
     }
 
-    .regular-16 {
-        @apply text-[16px] font-[400];
-    }
 
     .bold-16 {
         @apply text-[16px] font-[700];
