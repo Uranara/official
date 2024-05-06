@@ -17,8 +17,12 @@ const config: Config = {
                 },
 
             },
+            fontFamily:{
+                  "Comfort":["Comfortaa"]
+            },
             backgroundImage: {
-                "forest":"url('/forest.jpg')"
+                "forest":"url('/forest.jpg')",
+                "hero-bg":"url('/hero-bg.png')"
             },
             screens: {
                 xs: '400px',

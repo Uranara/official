@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Body from "@/components/Body";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
    <>
-        <Body></Body>
+        <Hero></Hero>
 
 
    </>
