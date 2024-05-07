@@ -2,13 +2,12 @@ import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import Button from "@/components/Button";
-import {ChevronDown} from "lucide-react";
-
+import {AlignJustify, ChevronDown} from "lucide-react";
 
 const Navbar = () => {
     return (
         <nav className={""}>
-            <div className={"flexBetween max-container padding-container relative z-30 py-5 "}>
+            <div className={"flexBetween max-container padding-container relative z-30 py-5  "}>
                 <Link href={"/"} className={"transition-transform transform skew-x-0  hover:skew-x-12"}>
                     <Image src={"/logo.png"} alt={"logo"} width={108} height={28}></Image>
                 </Link>
@@ -66,8 +65,8 @@ const Navbar = () => {
                     >
                     </Button>
                 </div>
-                <Image src={"menu.svg"} alt={"menu"} width={32} height={32}
-                       className={"inline-block cursor-pointer  lg:hidden"}/>
+
+                <AlignJustify size={32}  color="#46a96a" className={"inline-block cursor-pointer  lg:hidden"} />
             </div>
 
         </nav>

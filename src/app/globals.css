@@ -3,6 +3,19 @@
 @tailwind utilities;
 
 
+.comfort{
+    font-family: var(--comfort-inter);
+}
+
+button{
+    border-style: none;
+}
+
+div > ul > li > a{
+    font-family: var(--poppins-inter);
+
+}
+
 @layer base {
     div > ul > li > a {
         @apply bold-16 flexCenter cursor-pointer text-gray-10  transition-all hover:text-green-10
@@ -15,11 +28,8 @@
 
 @layer utilities {
 
-
-
-
     .btn_dark_green {
-        @apply px-4 py-2 text-white bg-green-10 transition-all hover:bg-gray-10
+        @apply px-4 py-2.5 text-white bg-green-10 transition-all hover:bg-gray-10 shadow-out
     }
 
     .max-container {

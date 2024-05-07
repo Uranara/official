@@ -18,11 +18,14 @@ const config: Config = {
 
             },
             fontFamily:{
-                  "Comfort":["Comfortaa"]
+
             },
             backgroundImage: {
                 "forest":"url('/forest.jpg')",
                 "hero-bg":"url('/hero-bg.png')"
+            },
+            boxShadow:{
+                "out" :"0 7px 25px rgb(41 41 41 / 20%);"
             },
             screens: {
                 xs: '400px',
