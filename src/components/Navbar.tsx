@@ -6,8 +6,9 @@ import {AlignJustify, ChevronDown} from "lucide-react";
 
 const Navbar = () => {
     return (
-        <nav className={""}>
-            <div className={"flexBetween max-container padding-container relative z-30 py-5  "}>
+        <nav className={" flex justify-center"}>
+            <div className={" flex  justify-between  items-center  max-container padding-container z-30 py-5 absolute w-full"}>
+
                 <Link href={"/"} className={"transition-transform transform skew-x-0  hover:skew-x-12"}>
                     <Image src={"/logo.png"} alt={"logo"} width={108} height={28}></Image>
                 </Link>

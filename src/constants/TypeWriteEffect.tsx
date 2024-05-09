@@ -27,7 +27,7 @@ const TypeWriteEffect = ({text = [""], callback, seed = 100}: PropsType) => {
         }
     },[])
     return (
-        <div  className={"inline"} ref={el}></div>
+        <div className={" inline"} ref={el}></div>
     );
 };
 

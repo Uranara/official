@@ -13,30 +13,29 @@ const config: Config = {
                     10: '#46a96a',
                 },
                 gray: {
+                    1: '#FAFAFA',
+                    5: '#5F5F5F',
                     10: '#585858',
+                    15: '#41464B',
+                    20: '#41464B',
+                },
+                blue:{
+                    75: '#415990',
                 },
 
             },
-            fontFamily:{
-
-            },
+            fontFamily: {},
             backgroundImage: {
-                "forest":"url('/forest.jpg')",
-                "hero-bg":"url('/hero-bg.png')"
+                "forest": "url('/forest.jpg')",
+                "hero-bg": "url('/hero-bg.png')"
             },
-            boxShadow:{
-                "out" :"0 7px 25px rgb(41 41 41 / 20%);"
+            boxShadow: {
+                "out": "0px 7px 25px rgb(41 41 41 / 27%);"
             },
             screens: {
                 xs: '400px',
                 '3xl': '1680px',
                 '4xl': '2200px',
-            },
-            maxWidth: {
-                '10xl': '1512px',
-            },
-            borderRadius: {
-                '5xl': '40px',
             },
         },
     },

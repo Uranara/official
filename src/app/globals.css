@@ -2,27 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    font-family: var(--poppins-inter);
+}
 
-.comfort{
+.comfort {
     font-family: var(--comfort-inter);
 }
 
-button{
+button {
     border-style: none;
 }
 
-div > ul > li > a{
+div > ul > li > a {
     font-family: var(--poppins-inter);
 
 }
 
 @layer base {
+
+    .base-link {
+        @apply cursor-pointer text-gray-20  transition-all hover:text-green-10
+    }
+
     div > ul > li > a {
-        @apply bold-16 flexCenter cursor-pointer text-gray-10  transition-all hover:text-green-10
+        @apply bold-16 flexCenter base-link
     }
 
     ul > li > a {
-        @apply   cursor-pointer text-gray-10  transition-all hover:text-green-10
+        @apply base-link
     }
 }
 
@@ -31,6 +39,11 @@ div > ul > li > a{
     .btn_dark_green {
         @apply px-4 py-2.5 text-white bg-green-10 transition-all hover:bg-gray-10 shadow-out
     }
+
+    .btn_dark_white {
+        @apply px-4 py-2.5 text-green-10 bg-white transition-all hover:bg-gray-10 hover:text-white shadow-out
+    }
+
 
     .max-container {
         @apply mx-auto max-w-[1440px];
@@ -43,19 +56,6 @@ div > ul > li > a{
     .flexCenter {
         @apply flex items-center justify-center;
     }
-
-    .flexBetween {
-        @apply flex items-center justify-between;
-    }
-
-    .flexStart {
-        @apply flex items-center justify-start;
-    }
-
-    .flexEnd {
-        @apply flex items-center justify-end;
-    }
-
 
     .bold-16 {
         @apply text-[16px] font-[700];

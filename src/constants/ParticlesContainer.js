@@ -18,7 +18,7 @@ const ParticlesContainer = () => {
     const particlesLoaded = useCallback(async () => {
     }, [])
 
-    return <Particles className={"w-screen h-full absolute  "} id={"particles"}
+    return <Particles className={"w-screen h-[750px] absolute  "} id={"particles"}
                       particlesLoaded={particlesLoaded} options={
         {
             fullScreen: {enable: false},
@@ -72,7 +72,7 @@ const ParticlesContainer = () => {
                         default: "out",
                     },
                     random: false,
-                    speed: 4,
+                    speed: 2,
                     straight: false,
 
                 },
