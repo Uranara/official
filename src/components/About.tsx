@@ -9,7 +9,7 @@ interface AboutProps {
 
 const AboutSite = ({content}: AboutProps) => {
     return (
-        <p className={"leading-6 text-justify "}>
+        <p className={"leading-6 text-justify indent-8 text-gray-5 "}>
             {content}
         </p>
 

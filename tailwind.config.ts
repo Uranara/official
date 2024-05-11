@@ -13,8 +13,9 @@ const config: Config = {
                     10: '#46a96a',
                 },
                 gray: {
-                    1: '#FAFAFA',
-                    5: '#5F5F5F',
+                    1:  '#FAFAFA',
+                    5:  '#5F5F5F',
+                    6:  '#5F5F65',
                     10: '#585858',
                     15: '#41464B',
                     20: '#41464B',
@@ -27,7 +28,8 @@ const config: Config = {
             fontFamily: {},
             backgroundImage: {
                 "forest": "url('/forest.jpg')",
-                "hero-bg": "url('/hero-bg.png')"
+                "hero": "url('/hero-bg.png')",
+                "section": "url('/section-bg.jpg')",
             },
             boxShadow: {
                 "out": "0px 7px 25px rgb(41 41 41 / 27%);"
