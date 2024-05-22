@@ -55,7 +55,7 @@ const Idea = () => {
 
                     <IdeaSite icon={<Cog color="#46a96a" size={40} />}
                               titles={["Timely","Delivery"]}
-                              subtitle={"Done or happening at the right time. The act of handing over something to someone"} />
+                              subtitle={"Done or happening at the right time. The act of handing over something to someone."} />
 
 
                 </div>

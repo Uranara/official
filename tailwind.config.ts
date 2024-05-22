@@ -14,8 +14,11 @@ const config: Config = {
                 },
                 gray: {
                     1:  '#FAFAFA',
+                    2:  '#F7F7F7',
+                    3:  '#D4D4D4',
                     5:  '#5F5F5F',
                     6:  '#5F5F65',
+                    8:  '#B9B9B9',
                     10: '#585858',
                     15: '#41464B',
                     20: '#41464B',
@@ -32,7 +35,8 @@ const config: Config = {
                 "section": "url('/section-bg.jpg')",
             },
             boxShadow: {
-                "out": "0px 7px 25px rgb(41 41 41 / 27%);"
+                "out": "0px 7px 25px rgb(41 41 41 / 27%);",
+                "box": "0px 0px 13px 0px rgba(82, 90, 101, 0.12);"
             },
             screens: {
                 xs: '400px',

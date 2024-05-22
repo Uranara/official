@@ -21,7 +21,8 @@ const CounterSite = ({icon,num,subtitle}:CounterProps) => {
 
 const Counter = () => {
     return (
-        <div className={" relative overflow-hidden h-screen    "}>
+
+        <div className={" relative overflow-hidden min-h-96  "}>
             <div className={"absolute bg-section bg-blend-color-dodge  w-screen  h-[300px] bg-cover bg-center  mb-36 mt-16  bg-fixed inset-0"}>
                <div className={"grid place-items-center grid-cols-3 gap-12 text-white h-full max-container"}>
                    <CounterSite icon={<Users color="#ffffff" size={40} />} num={230} subtitle={"Happy Clients"} />
