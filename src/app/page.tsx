@@ -6,6 +6,7 @@ import Idea from "@/components/Idea";
 import Counter from "@/components/Counter";
 import Teams from "@/components/Teams";
 import Blogs from "@/components/Blogs";
+import Subscribe from "@/components/Subscribe";
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
             <Counter></Counter>
             <Teams></Teams>
             <Blogs></Blogs>
+            <Subscribe></Subscribe>
         </>
     );
 }
