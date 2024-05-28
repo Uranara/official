@@ -41,14 +41,14 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className={"group"}>
-                        <Link href={"/service"} key={"Services"}>
+                        <Link href={"/services"} key={"Services"}>
                             Services
                             <ChevronDown/>
                         </Link>
                         <ul className={"absolute p-8  space-y-4  rounded-xl  bg-white shadow-xl hidden group-hover:block"}>
-                            <li><Link href={"/"}>Services</Link></li>
-                            <li><Link href={"/"}>Single Services</Link></li>
-                            <li><Link href={"/"}>Pricing</Link></li>
+                            <li><Link href={"/services"}>Services</Link></li>
+                            <li><Link href={"/services"}>Single Services</Link></li>
+                            <li><Link href={"/services"}>Pricing</Link></li>
                         </ul>
 
                     </li>
@@ -59,9 +59,9 @@ const Navbar = () => {
                             <ChevronDown/>
                         </Link>
                         <ul className={"absolute p-8  space-y-4  rounded-xl  bg-white shadow-xl hidden group-hover:block"}>
-                            <li><Link href={"/"}>Projects</Link></li>
-                            <li><Link href={"/"}>Single Projects</Link></li>
-                            <li><Link href={"/"}>success cases</Link></li>
+                            <li><Link href={"/case"}>Projects</Link></li>
+                            <li><Link href={"/case"}>Single Projects</Link></li>
+                            <li><Link href={"/case"}>success cases</Link></li>
                         </ul>
                     </li>
 

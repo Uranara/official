@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 
 const Page = () => {
     return (
@@ -11,13 +12,15 @@ const Page = () => {
                         </div>
 
                     </div>
-                    <div className={""}>
+               <div className={"w-full bg-green-10 "}>
+                   <div className={"max-container padding-container"}>
+                       <Link href={"/"}>Home</Link>
+                       <Link href={"/about"} className={"before:"}>About</Link>
+                   </div>
+               </div>
 
-                    </div>
            </div>
-            <div>
 
-            </div>
         </div>
     );
 };

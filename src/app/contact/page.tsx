@@ -7,8 +7,8 @@ const Page = () => {
             <div className={"page-header flex items-center   "}>
                 <div className={"max-container padding-container"}>
                     <div className={""}>
-                        <h2 className={"text-[34px] text-gray-6"}>Our Portfolio</h2>
-                        <p className={"text-[15px] text-gray-6"}> Showcases a variety of projects that we have completed for our clients</p>
+                        <h2 className={"text-[34px] text-gray-6"}>Contact Us</h2>
+                        <p className={"text-[15px] text-gray-6"}>We're always happy to hear from you!</p>
                     </div>
 
                 </div>
