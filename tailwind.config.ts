@@ -16,6 +16,7 @@ const config: Config = {
                     1:  '#FAFAFA',
                     2:  '#F7F7F7',
                     3:  '#D4D4D4',
+                    4:  '#E4E4E4',
                     5:  '#5F5F5F',
                     6:  '#5F5F65',
                     8:  '#B9B9B9',
@@ -34,6 +35,7 @@ const config: Config = {
                 "forest": "url('/forest.jpg')",
                 "hero": "url('/hero-bg.png')",
                 "section": "url('/section-bg.jpg')",
+                "footer-bg": "url('/footer-bg.jpg')",
             },
             boxShadow: {
                 "out": "0px 7px 25px rgb(41 41 41 / 27%);",

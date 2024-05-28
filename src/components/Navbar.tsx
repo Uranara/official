@@ -1,14 +1,29 @@
-import React from 'react';
+"use client"
+import React, {useEffect, useState} from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import Button from "@/components/Button";
 import {AlignJustify, ChevronDown} from "lucide-react";
 
 const Navbar = () => {
-    return (
-        <nav className={" flex justify-center"}>
-            <div className={" flex  justify-between  items-center  max-container padding-container z-30 py-5 absolute w-full"}>
+    const [isScrolled,setIsScrolled] =useState(false)
+     useEffect(() =>{
+         const handleScroll = () => {
+           if(window.scrollY > 50){
+               setIsScrolled(true)
+           }else{
+               setIsScrolled(false)
+           }
+         }
+         window.addEventListener("scroll",handleScroll);
+         return () =>{
+             window.removeEventListener("scroll",handleScroll);
+         }
+     },[])
 
+    return (
+        <nav className={` h-[90px] fixed z-50 w-full transition-all duration-300 ${isScrolled ? "bg-white shadow-md" :"bg-transparent" }`}>
+            <div className={"max-container padding-container py-5  flex  items-center justify-between"}>
                 <Link href={"/"} className={"transition-transform transform skew-x-0  hover:skew-x-12"}>
                     <Image src={"/logo.png"} alt={"logo"} width={108} height={28}></Image>
                 </Link>
@@ -26,7 +41,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className={"group"}>
-                        <Link href={"/service"} key={"Services"}  >
+                        <Link href={"/service"} key={"Services"}>
                             Services
                             <ChevronDown/>
                         </Link>
@@ -66,8 +81,7 @@ const Navbar = () => {
                     >
                     </Button>
                 </div>
-
-                <AlignJustify size={32}  color="#46a96a" className={"inline-block cursor-pointer  lg:hidden"} />
+                <AlignJustify size={32} color="#46a96a" className={"inline-block cursor-pointer  lg:hidden"}/>
             </div>
 
         </nav>
