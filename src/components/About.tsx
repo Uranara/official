@@ -22,7 +22,7 @@ const About = () => {
             <div className={"flex flex-row "}>
                 <div className={"basis-1/2"}>
                     <h1 className={"text-[32px] text-green-10"}>About Our Company</h1>
-                    <p className={"text-[15px] leading-10 mb-4 text-blue-75"}>We're Passionate About Helping Businesses
+                    <p className={"text-[15px] leading-10 mb-4 text-blue-75"}>We&rsquo;re Passionate About Helping Businesses
                         Thrive with Technology</p>
                     <AboutSite
                         content={"Freena technology is a high-teach company with a full capability of research & development ,\n" +

@@ -15,8 +15,8 @@ const FeaturesSite = ({icon, title, subtitle}: FeaturesProps) => {
             </div>
             <h1 className={"text-3xl line-clamp-1 leading-normal"}>{title}</h1>
             {
-                subtitle.map((label)=>(
-                    <p className={"leading-6"}>{label}</p>
+                subtitle.map((label,index)=>(
+                    <p className={"leading-6"} key={index}>{label}</p>
                 ))
             }
 

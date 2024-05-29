@@ -10,7 +10,7 @@ const Page = () => {
     return (
             <>
                 <PageHeader title={"About Us"}
-                            subtitle={"We're Passionate About Helping Businesses Thrive with Technology"}
+                            subtitle={"We are Passionate About Helping Businesses Thrive with Technology"}
                             href={"about"}/>
 
                 <About></About>
