@@ -12,7 +12,7 @@ const Footer = () => {
                         <div>
                             <h1 className={"text-6xl font-bold  mb-6"}>FREENA</h1>
                             <p className={"text-[14px] mb-4"}>At DesignSoft we are passionate about providing businesses with the IT solutions they
-                                need to succeed in today's competitive marketplace.</p>
+                                need to succeed in today&rsquo;s competitive marketplace.</p>
                             <h3  className={"mb-6 text-[20px]"}>Follow us</h3>
                             <div className={"flex flex-row"}>
 
@@ -24,8 +24,8 @@ const Footer = () => {
                                     <h1 className={"text-[24px] mb-6 font-bold"}>{columns.title}</h1>
                                     <ul className={"flex flex-col"}>
                                         {
-                                            columns.links.map((link) => (
-                                                <Link href={"#"} className={"mb-3  hover:underline"} key={link}>{link}</Link>
+                                            columns.links.map((link,index) => (
+                                                <Link href={"#"} className={"mb-3  hover:underline"} key={index}>{link}</Link>
                                             ))
                                         }
                                     </ul>
