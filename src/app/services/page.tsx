@@ -1,27 +1,76 @@
-import React from 'react';
+import React, {ReactNode} from 'react';
 import Link from "next/link";
+import PageHeader from "@/components/PageHeader";
+import {Lightbulb} from "lucide-react";
+
+
+interface ServicePageProps {
+    icon: ReactNode;
+    title: string;
+    subtitle: string;
+}
+
+const ServicePageSite = ({icon,title,subtitle}:ServicePageProps) => {
+    return (
+        <div className={"flex flex-col p-10 bg-gray-1 rounded-2xl text-center"}>
+            <div className={"flex justify-center p-4"}>
+                {icon}
+            </div>
+            <h1 className={"text-[24px] text-gray-5 mb-3"}>{title}</h1>
+            <p className={"text-[15px] text-gray-5"}>
+                {subtitle}
+            </p>
+        </div>
+    )
+}
 
 const Page = () => {
     return (
-        <div className={" bg-section  bg-center min-h-[40vh] relative bg-fixed"}>
-            <div className={"page-header flex items-center   "}>
-                <div className={"max-container padding-container"}>
-                    <div className={""}>
-                        <h2 className={"text-[34px] text-gray-6"}>Services</h2>
-                        <p className={"text-[15px] text-gray-6"}> Web Design, Development, Hosting</p>
-                    </div>
+        <>
+            <PageHeader title={"Services"}
+                        subtitle={"Web Design, Development, Hosting"}
+                        href={"services"}/>
 
-                </div>
-                <div className={"w-full bg-green-10 "}>
-                    <div className={"max-container padding-container"}>
-                        <Link href={"/"}>Home</Link>
-                        <Link href={"/about"} className={"before:"}>Services</Link>
-                    </div>
-                </div>
+            <div className={"my-10 mx-14"}>
+                <div className={"grid grid-cols-3 gap-4"}>
 
+                    <ServicePageSite icon={ <Lightbulb  color="#46a96a" size={40}/>}
+                                     title={"Apps Design"}
+                                     subtitle={" Application design is the process of creating a digital solution that meets the needs of\n" +
+                                         "                            users. It\n" +
+                                         "                            involves understanding user needs, designing user interfaces, and developing code."}/>
+
+                    <ServicePageSite icon={ <Lightbulb  color="#46a96a" size={40}/>}
+                                     title={"Apps Design"}
+                                     subtitle={" Application design is the process of creating a digital solution that meets the needs of\n" +
+                                         "                            users. It\n" +
+                                         "                            involves understanding user needs, designing user interfaces, and developing code."}/>
+
+                    <ServicePageSite icon={ <Lightbulb  color="#46a96a" size={40}/>}
+                                     title={"Apps Design"}
+                                     subtitle={" Application design is the process of creating a digital solution that meets the needs of\n" +
+                                         "                            users. It\n" +
+                                         "                            involves understanding user needs, designing user interfaces, and developing code."}/>
+                    <ServicePageSite icon={ <Lightbulb  color="#46a96a" size={40}/>}
+                                     title={"Apps Design"}
+                                     subtitle={" Application design is the process of creating a digital solution that meets the needs of\n" +
+                                         "                            users. It\n" +
+                                         "                            involves understanding user needs, designing user interfaces, and developing code."}/>
+
+                    <ServicePageSite icon={ <Lightbulb  color="#46a96a" size={40}/>}
+                                     title={"Apps Design"}
+                                     subtitle={" Application design is the process of creating a digital solution that meets the needs of\n" +
+                                         "                            users. It\n" +
+                                         "                            involves understanding user needs, designing user interfaces, and developing code."}/>
+
+                    <ServicePageSite icon={ <Lightbulb  color="#46a96a" size={40}/>}
+                                     title={"Apps Design"}
+                                     subtitle={" Application design is the process of creating a digital solution that meets the needs of\n" +
+                                         "                            users. It\n" +
+                                         "                            involves understanding user needs, designing user interfaces, and developing code."}/>
+                </div>
             </div>
-
-        </div>
+        </>
     );
 };
 

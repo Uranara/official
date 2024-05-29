@@ -1,27 +1,17 @@
 import React from 'react';
 import Link from "next/link";
+import PageHeader from "@/components/PageHeader";
+import Blogs from "@/components/Blogs";
 
 const Page = () => {
     return (
-        <div className={" bg-section  bg-center min-h-[40vh] relative bg-fixed"}>
-            <div className={"page-header flex items-center   "}>
-                <div className={"max-container padding-container"}>
-                    <div className={""}>
-                        <h2 className={"text-[34px] text-gray-6"}>Our Portfolio</h2>
-                        <p className={"text-[15px] text-gray-6"}> Showcases a variety of projects that we have completed for our clients</p>
-                    </div>
+       <>
+       <PageHeader title={"Our Case"}
+                   subtitle={"Showcases a variety of projects that we have completed for our clients"}
+                   href={"case"}/>
 
-                </div>
-                <div className={"w-full bg-green-10 "}>
-                    <div className={"max-container padding-container"}>
-                        <Link href={"/"}>Home</Link>
-                        <Link href={"/about"} className={"before:"}>Case</Link>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
+           <Blogs></Blogs>
+       </>
     );
 };
 
