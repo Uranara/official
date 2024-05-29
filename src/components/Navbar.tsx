@@ -30,43 +30,43 @@ const Navbar = () => {
                 <ul className={"hidden h-full gap-12 lg:flex   "}>
                     <li>
                         <Link href={"/"} key={"Home"}
-                              className={""}>
+                              className={"nav-link"}>
                             Home
                         </Link>
                     </li>
                     <li>
                         <Link href={"/about"} key={"About Us"}
-                              className={"bold-16 flexCenter cursor-pointer text-gray-10  transition-all hover:text-green-10 "}>
+                              className={"nav-link"}>
                             About us
                         </Link>
                     </li>
                     <li className={"group"}>
-                        <Link href={"/services"} key={"Services"}>
+                        <Link href={"/services"} key={"Services"} className={"nav-link"}>
                             Services
                             <ChevronDown/>
                         </Link>
                         <ul className={"absolute p-8  space-y-4  rounded-xl  bg-white shadow-xl hidden group-hover:block"}>
-                            <li><Link href={"/services"}>Services</Link></li>
-                            <li><Link href={"/services"}>Single Services</Link></li>
-                            <li><Link href={"/services"}>Pricing</Link></li>
+                            <li><Link href={"/services"} key={"Services"} className={"base-link"}>Services</Link></li>
+                            <li><Link href={"/services"} key={"Single Services"} className={"base-link"}>Single Services</Link></li>
+                            <li><Link href={"/services"} key={"Pricing"} className={"base-link"}>Pricing</Link></li>
                         </ul>
 
                     </li>
 
                     <li className={"group"}>
-                        <Link href={"/case"} key={"Case"}>
+                        <Link href={"/case"} key={"Case"} className={"nav-link"}>
                             Case
                             <ChevronDown/>
                         </Link>
                         <ul className={"absolute p-8  space-y-4  rounded-xl  bg-white shadow-xl hidden group-hover:block"}>
-                            <li><Link href={"/case"}>Projects</Link></li>
-                            <li><Link href={"/case"}>Single Projects</Link></li>
-                            <li><Link href={"/case"}>success cases</Link></li>
+                            <li><Link href={"/case"} key={"Projects"} className={"base-link"}>Projects</Link></li>
+                            <li><Link href={"/case"} key={"Single Projects"} className={"base-link"}>Single Projects</Link></li>
+                            <li><Link href={"/case"} key={"success cases"} className={"base-link"}>success cases</Link></li>
                         </ul>
                     </li>
 
                     <li>
-                        <Link href={"/contact"} key={"Contact Us"}>
+                        <Link href={"/contact"} key={"Contact Us"} className={"nav-link"}>
                             Contact Us
                         </Link>
                     </li>

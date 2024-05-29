@@ -16,14 +16,9 @@ button {
     border-style: none;
 }
 
-div > ul > li > a {
-    font-family: var(--poppins-inter);
-
-}
 
 
-
-footer:before{
+footer:before {
     content: "";
     position: absolute;
     left: 0;
@@ -36,13 +31,14 @@ footer:before{
     z-index: 0;
     opacity: 0.9;
 }
-.copyright-text{
+
+.copyright-text {
     margin-top: 60px;
     border-top: 1px solid rgb(255 255 255 / 29%);
     padding-top: 30px;
 }
 
-.page-header{
+.page-header {
     content: '';
     background: #ffffff;
     position: absolute;
@@ -53,19 +49,18 @@ footer:before{
     opacity: 0.7;
     z-index: 0;
 }
+
 @layer base {
 
     .base-link {
         @apply cursor-pointer text-gray-20  transition-all hover:text-green-10
     }
 
-    div > ul > li > a {
+    .nav-link {
         @apply bold-16 flexCenter base-link
     }
 
-    ul > li > a {
-        @apply base-link
-    }
+
 }
 
 @layer utilities {

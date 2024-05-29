@@ -50,7 +50,7 @@ const Teams = () => {
 
                 <div className={"grid grid-cols-3 gap-4"}>
 
-                    <TeamsSite imageSrc={"/Mr Wang.png"}
+                    <TeamsSite imageSrc={"/MrWang.png"}
                                altText={"CEO"}
                                name={"Mr Wang"}
                                text={"The company is driven by core technology, led by advanced brands, and guided by\n" +
