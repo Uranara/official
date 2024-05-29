@@ -19,13 +19,13 @@ const Footer = () => {
                             </div>
                         </div>
                         {
-                            FOOTER_LINKS.map((columns) => (
-                                <div>
+                            FOOTER_LINKS.map((columns ,columnIndex) => (
+                                <div key={columnIndex}>
                                     <h1 className={"text-[24px] mb-6 font-bold"}>{columns.title}</h1>
                                     <ul className={"flex flex-col"}>
                                         {
-                                            columns.links.map((link,index) => (
-                                                <Link href={"#"} className={"mb-3  hover:underline"} key={index}>{link}</Link>
+                                            columns.links.map((link,linkIndex) => (
+                                                <Link href={"#"} className={"mb-3  hover:underline"} key={linkIndex}>{link}</Link>
                                             ))
                                         }
                                     </ul>
