@@ -26,6 +26,7 @@ const Navbar = () => {
             <div className={"max-container padding-container py-5  flex  items-center justify-between"}>
                 <Link href={"/"} className={"transition-transform transform skew-x-0  hover:skew-x-12"}>
                     <Image src={"/logo.png"} alt={"logo"} width={108} height={28}></Image>
+                    <p className={"flex justify-center text-green-5 text-[10px]"}>富睿纳(宁波)科技有限公司</p>
                 </Link>
                 <ul className={"hidden h-full gap-12 lg:flex   "}>
                     <li>
@@ -78,6 +79,7 @@ const Navbar = () => {
                         title="Login"
                         icon="user.svg"
                         variant="btn_dark_green"
+                        href={"/"}
                     >
                     </Button>
                 </div>

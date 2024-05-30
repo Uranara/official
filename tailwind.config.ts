@@ -10,6 +10,7 @@ const config: Config = {
         extend: {
             colors: {
                 green: {
+                    5 : '#47a500',
                     10: '#46a96a',
                 },
                 gray: {
@@ -42,9 +43,7 @@ const config: Config = {
                 "box": "0px 0px 13px 0px rgba(82, 90, 101, 0.12);"
             },
             screens: {
-                xs: '400px',
-                '3xl': '1680px',
-                '4xl': '2200px',
+
             },
         },
     },

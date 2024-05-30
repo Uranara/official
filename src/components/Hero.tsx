@@ -21,6 +21,7 @@ const Hero = () => {
                         type="button"
                         title="Contact Us"
                         variant="btn_dark_white"
+                        href="/contact"
                     >
                     </Button>
 
@@ -28,6 +29,7 @@ const Hero = () => {
                         type="button"
                         title="How Freena work ?"
                         variant="btn_dark_green"
+                        href="/about"
                     >
                     </Button>
                 </div>
