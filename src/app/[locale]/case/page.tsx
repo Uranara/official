@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "next/link";
-import PageHeader from "@/components/PageHeader";
-import Blogs from "@/components/Blogs";
+import PageHeader from "../../../components/PageHeader";
+import Blogs from "../../../components/Blogs";
 
 const Page = () => {
     return (

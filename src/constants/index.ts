@@ -1,4 +1,4 @@
-// NAVIGATION
+ // NAVIGATION
 export const NAV_LINKS = [
     {href: '/', key: 'Home', label: 'Home'},
     {href: '/', key: 'About Us', label: 'About us'},

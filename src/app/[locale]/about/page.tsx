@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from "next/link";
-import About from "@/components/About";
-import Idea from "@/components/Idea";
-import PageHeader from "@/components/PageHeader";
+import About from "../../../components/About";
+import Idea from "../../../components/Idea";
+import PageHeader from "../../../components/PageHeader";
 
 
 

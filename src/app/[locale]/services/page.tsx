@@ -1,6 +1,6 @@
 import React, {ReactNode} from 'react';
 import Link from "next/link";
-import PageHeader from "@/components/PageHeader";
+import PageHeader from "../../../components/PageHeader";
 import {Lightbulb} from "lucide-react";
 
 

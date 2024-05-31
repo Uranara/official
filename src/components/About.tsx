@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-
+import {useTranslations} from 'next-intl';
 
 interface AboutProps {
 
@@ -17,24 +17,16 @@ const AboutSite = ({content}: AboutProps) => {
 }
 
 const About = () => {
+    const t = useTranslations('About');
     return (
         <section className={"max-container  mt-16"}>
             <div className={"flex flex-row "}>
                 <div className={"basis-1/2"}>
-                    <h1 className={"text-[32px] text-green-10"}>About Our Company</h1>
-                    <p className={"text-[15px] leading-10 mb-4 text-blue-75"}>We&rsquo;re Passionate About Helping Businesses
-                        Thrive with Technology</p>
-                    <AboutSite
-                        content={"Freena technology is a high-teach company with a full capability of research & development ,\n" +
-                            "                    manufacturing, selling and serving of five-constant intelligent air conditioners."}></AboutSite>
-
-                    <AboutSite
-                        content={"With the advantage of cutting-edge technologies, we have been the leader in the industry, and also\n" +
-                            "                        the only one owned the whole set of core proprietary technologies for our self-invented products domestically."}></AboutSite>
-                    <AboutSite
-                        content={"  Owned by Freena technology , Freena is a brand name of the five-constant intelligent air conditioners ,\n" +
-                            "                        which are praised and welcomed by the customers for their performance of constant temperature , humidity , oxygen\n" +
-                            "                        level , cleanliness and quietness , while consuming 80% less energy than traditional air conditioners."}></AboutSite>
+                    <h1 className={"text-[32px] text-green-10"}>{t('title')}</h1>
+                    <p className={"text-[15px] leading-10 mb-4 text-blue-75"}>{t('subtitle')}</p>
+                    <AboutSite content={t('content1')}></AboutSite>
+                    <AboutSite content={t('content2')}></AboutSite>
+                    <AboutSite content={t('content3')}></AboutSite>
 
 
                 </div>

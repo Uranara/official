@@ -1,0 +1,78 @@
+{
+  "Navbar": {
+    "CompanyName": "FREENA (NINGBO) TECHNOLOGY LTD",
+    "nav1": "Home",
+    "nav2": "About us",
+    "nav3": "Services",
+    "nav3_1": "Services",
+    "nav3_2": "Single Services",
+    "nav3_3": "Pricing",
+    "nav4": "Case",
+    "nav4_1": "Projects",
+    "nav4_2": "Single Projects",
+    "nav4_3": "Success Cases",
+    "nav5": "Contact Us",
+    "login": "Login"
+  },
+  "Hero": {
+    "sloan": [
+      "Global Leader Of Intelligent Indoor Micro Environment",
+      "Create An Indoor Living Environment That Fosters Comfort And Life Span",
+      "Human ,Poetically Dwelling On The Earth"
+    ],
+    "title": "This is Freena",
+    "buttonTitle1": "Contact Us",
+    "buttonTitle2": "How Freena work ?"
+  },
+  "Features": {
+    "radiantPanel": {
+      "title": "Radiant Panel Technology",
+      "subtitles1": "Effective Insulation",
+      "subtitles2": "Precise Temperature Control",
+      "subtitles3": "Easy To Install"
+    },
+    "freshAirSystem": {
+      "title": "Fresh Air System Equipped",
+      "subtitles1": "Full Air Replacement",
+      "subtitles2": "Air Quality Control",
+      "subtitles3": "Precise Control Of Humidity And Temperature"
+    },
+    "centralControl": {
+      "title": "Central Control System",
+      "subtitles1": "High Accuracy Sensor",
+      "subtitles2": "Central Processing Unit",
+      "subtitles3": "Stable Operation"
+    }
+  },
+  "About": {
+    "title": "About Our Company",
+    "subtitle": "We are Passionate About Helping Businesses Thrive with Technology",
+    "content1": "Freena technology is a high-teach company with a full capability of research & development ,manufacturing, selling and serving of five-constant intelligent air conditioners.",
+    "content2": "With the advantage of cutting-edge technologies, we have been the leader in the industry, and also the only one owned the whole set of core proprietary technologies for our self-invented products domestically.",
+    "content3": "Owned by Freena technology , Freena is a brand name of the five-constant intelligent air conditioners , which are praised and welcomed by the customers for their performance of constant temperature , humidity , oxygen ,level , cleanliness and quietness , while consuming 80% less energy than traditional air conditioners."
+  },
+  "Idea": {
+    "title": "Why Choose Us?",
+    "subtitle": "With the rapid development of technology and business, choosing the right partner is crucial for your business success.",
+    "label1": "Expertise",
+    "label2": "Experience",
+    "label3": "Quality",
+    "label4": "Products",
+    "label5": "Timely",
+    "label6": "Delivery",
+    "content1": "Deep knowledge and skill in a particular area. Practical knowledge gained from work or other activities.",
+    "content2": "A high standard of performance or excellence. Goods or services that are offered for sale.",
+    "content3": "Done or happening at the right time. The act of handing over something to someone."
+  },
+  "Counter": {
+    "subtitle1": "Happy Clients",
+    "subtitle2": "Completed Projects",
+    "subtitle3": "Hours Of Support"
+  },
+  "Subscribe": {
+    "title": "Do not miss to subscribe to our new feeds",
+    "label": "Email Address",
+    "sub": "Subscribe"
+  }
+
+}
