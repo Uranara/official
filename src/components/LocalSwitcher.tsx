@@ -16,9 +16,9 @@ const LocalSwitcher = () => {
     return (
         <div className={""}>
             <label className={""}>
-                <p className={"sr-only"}>vhange lange</p>
+                <p className={"sr-only"}>language change</p>
                 <select name="" id="" defaultValue={localActive}
-                        className={"bg-transparent py-2"}
+                        className={"bg-transparent py-2  "}
                         onChange={onSelectChange}
                         disabled={isPending}
                 >

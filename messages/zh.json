@@ -141,6 +141,18 @@
   },
   "ContactPage": {
     "title": "联系我们",
-    "subtitle": "我们总是很高兴收到您的来信！"
+    "subtitle": "我们总是很高兴收到您的来信！",
+    "label1": "地址:",
+    "label2": "电话:",
+    "label3": "邮箱:",
+    "address1": "行政中心：浙江省宁波市北仑区江南路1666号华生国际D栋5层",
+    "address2": "研发中心：浙江省宁波市北仑区普顺路198号滨江装备创业园三期17栋",
+    "address3": " 南京公司：江苏省南京市浦口区华创路68号南京景枫乐创中心B1座12层",
+    "placeholder1": "姓名*",
+    "placeholder2": "邮箱*",
+    "placeholder3": "行业*",
+    "placeholder4": "写下你的信息*",
+    "buttonText": "发送信息"
   }
+
 }

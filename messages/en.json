@@ -143,7 +143,18 @@
   },
   "ContactPage": {
     "title": "Contact Us",
-    "subtitle": "We're always happy to hear from you!"
+    "subtitle": "We're always happy to hear from you!",
+    "label1": "Address:",
+    "label2": "Phone:",
+    "label3": "Email:",
+    "address1": "Administration: 5F, Building D, Huasheng International, 1666 Jiangnan Road, Beilun District, Ningbo, Zhejiang",
+    "address2": "R&D center: Building 17, Binjiang Innovation Park, 198 Pushun Road, Beilun District, Ningbo, Zhejiang",
+    "address3": "Nanjing Company：12th Floor, Building B1, Nanjing Jingfeng Lechuang Center, No. 68 Huachuang Road, Pukou District, Nanjing City, Jiangsu Province",
+    "placeholder1": "Name*",
+    "placeholder2": "Email*",
+    "placeholder3": "Subject*",
+    "placeholder4": "Write Your Message*",
+    "buttonText": "Send Message"
   }
 
 }
