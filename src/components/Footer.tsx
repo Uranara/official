@@ -20,8 +20,8 @@ const Footer = () => {
                     </div>
 
                     {
-                        keys.map((key) => (
-                            <div>
+                        keys.map((key,index) => (
+                            <div key={index}>
                                 <h1 className={"text-[24px] mb-6 font-bold"}>{t(`${key}.title`)}</h1>
                                 <ul className={"flex flex-col"}>
                                     <Link href={"#"} className={"mb-3  hover:underline"}>{t(`${key}.links1`)}</Link>

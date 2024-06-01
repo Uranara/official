@@ -31,8 +31,8 @@ const Features = () => {
     return (
         <section className={"grid grid-cols-3 gap-2  text-center text-gray-5 max-container"}>
             {
-                keys.map((key) => (
-                    <FeaturesSite icon={<Radiation color="#46a96a" size={40}/>}
+                keys.map((key,index) => (
+                    <FeaturesSite key={index} icon={<Radiation color="#46a96a" size={40}/>}
                                   title={t(`${key}.title`)}
                                   subtitle1={t(`${key}.subtitles1`)}
                                   subtitle2={t(`${key}.subtitles2`)}
