@@ -2,7 +2,8 @@ import React, {ReactNode} from 'react';
 import Link from "next/link";
 import PageHeader from "../../../components/PageHeader";
 import {Lightbulb} from "lucide-react";
-
+import Clients from '@/components/Clients';
+import {useTranslations} from 'next-intl';
 
 interface ServicePageProps {
     icon: ReactNode;
@@ -25,12 +26,14 @@ const ServicePageSite = ({icon,title,subtitle}:ServicePageProps) => {
 }
 
 const Page = () => {
+    const t = useTranslations('ServicePage');
+
     return (
         <>
-            <PageHeader title={"Services"}
-                        subtitle={"Web Design, Development, Hosting"}
+            <PageHeader title={t('title')}
+                        subtitle={t('subtitle')}
                         href={"services"}/>
-
+            <Clients></Clients>
             <div className={"my-10 mx-14"}>
                 <div className={"grid grid-cols-3 gap-4"}>
 

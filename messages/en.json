@@ -69,10 +69,81 @@
     "subtitle2": "Completed Projects",
     "subtitle3": "Hours Of Support"
   },
+  "Clients": {
+    "title": "Testimonials",
+    "subtitle": "Our testimonials are a testament to the satisfaction of our clients",
+    "altText1":"Decoration Workers",
+    "altText2":"Villa Owner",
+    "altText3":"Home Appliance Agents",
+    "text1": "The company is driven by core technology, led by advanced brands, and guided by intelligent services.",
+    "text2": "Focusing on customers and technology, we are committed to becoming a global leader in indoor micro environment.",
+    "text3": "Innovation, integrity, pragmatism, passion."
+
+  },
+  "Blogs": {
+    "title": "Blogs",
+    "subtitle": "Our latest blog posts, featuring images and videos to enhance your reading experience",
+    "department1": "Sales Department",
+    "department2": "Brand Department",
+    "department3": "Marketing Department",
+    "title1" : "What is a radiation plate system ?",
+    "title2" : "What are the three major technological innovations?",
+    "title3" : "Differences from traditional air conditioning",
+    "text1": "The origin of the single sided radiant panel system originated in the Mediterranean climate of Italy, which is hotter than the Nordic climate. In order to increase the end cooling capacity, it is necessary to increase the flow rate and add metal aluminum plates to make the heat diffusion more uniform\n",
+    "text2": "The Freena  Intelligent Radiation Air Conditioning System, combined with thermal comfort theory, not only achieves human temperature and humidity comfort, but also meets the environmental standards of natural restoration for air quality.",
+    "text3": "The significance of air conditioners is to affect the experience of evaporation by controlling convection and radiation. When convection and radiation can allow the human body to enter a state of natural evaporation without feeling, the comfort provided is the highest"
+  },
   "Subscribe": {
     "title": "Do not miss to subscribe to our new feeds",
     "label": "Email Address",
     "sub": "Subscribe"
+  },
+  "Footer": {
+    "title": "FREENA",
+    "subtitle": "We humans spend three-quarters of our lifetime indoors and comfort is the core requirement of us. From the perspectives of technology, aesthetics, craftsmanship, and humanities, Freena’s expectation of ultimate and intelligent living environment has been imbedded into each part of the life. We show respect and care to our customers while conveying the attitude of comfort and health.",
+    "label": "Follow us",
+    "Services": {
+      "title": "Services",
+      "links1": "Web Design",
+      "links2": "App Development",
+      "links3": "Cloud Services",
+      "links4": "Domain And Hosting",
+      "links5": "Seo Optimization",
+      "links6": "Social Media",
+      "links7": "Data Secure",
+      "links8": "Web Hosting"
+    },
+    "Information": {
+      "title": "Information",
+      "links1": "About",
+      "links2": "Pricing",
+      "links3": "FAQs",
+      "links4": "Team",
+      "links5": "Blogs",
+      "links6": "Single Blog",
+      "links7": "Terms & Conditions",
+      "links8": "Sample Page"
+    },
+    "ContactsTitle": "Contacts",
+    "text": "Building 17, Binjiang Innovation Park, 198 Pushun Road, Beilun District, Ningbo, Zhejiang\n"
+
+  },
+
+  "AboutPage": {
+    "title": "About Us",
+    "subtitle": "We are Passionate About Helping Businesses Thrive with Technology."
+  },
+  "ServicePage": {
+    "title": "Services",
+    "subtitle": "We focus on providing the highest quality service."
+  },
+  "CasePage": {
+    "title": "Our Case",
+    "subtitle": "Showcases a variety of projects that we have completed for our clients."
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "subtitle": "We're always happy to hear from you!"
   }
 
 }

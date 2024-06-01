@@ -1,6 +1,6 @@
 import React from 'react';
 import {Quote, Star, UserCheck} from "lucide-react";
-
+import {useTranslations} from 'next-intl';
 
 interface TeamsProps {
 
@@ -38,34 +38,32 @@ const TeamsSite = ({ altText,name, text}: TeamsProps) => {
 }
 
 const Clients = () => {
+    const t = useTranslations('Clients');
     return (
         <section className={"max-container mt-16 flex justify-center "}>
             <div>
                 <div className={"text-center"}>
-                    <h1 className={"text-[32px] text-green-10"}>Testimonials</h1>
-                    <p className={"text-[15px] leading-10 mb-14 text-blue-75"}>Our testimonials are a testament to the
-                        satisfaction of our clients</p>
+                    <h1 className={"text-[32px] text-green-10"}>{t('title')}</h1>
+                    <p className={"text-[15px] leading-10 mb-14 text-blue-75"}>{t('subtitle')}</p>
                 </div>
 
                 <div className={"grid grid-cols-3 gap-4"}>
 
                     <TeamsSite
-                               altText={"Decoration Workers"}
+                               altText={t('altText1')}
                                name={"Mr Bai"}
-                               text={"The company is driven by core technology, led by advanced brands, and guided by\n" +
-                                   "                                intelligent services."}/>
+                               text={t('text1')}/>
 
                     <TeamsSite
 
-                        altText={"Villa Owner"}
+                        altText={t('altText2')}
                         name={"Jack"}
-                        text={"Focusing on customers and technology, we are committed to becoming a global leader in\n" +
-                            "                                indoor micro environment."}/>
+                        text={t('text2')}/>
                     <TeamsSite
 
-                        altText={"Home Appliance Agents"}
+                        altText={t('altText3')}
                         name={"Dai Bright"}
-                        text={"Innovation, integrity, pragmatism, passion."}/>
+                        text={t('text3')}/>
 
                 </div>
             </div>

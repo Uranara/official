@@ -3,14 +3,15 @@ import Link from "next/link";
 import About from "../../../components/About";
 import Idea from "../../../components/Idea";
 import PageHeader from "../../../components/PageHeader";
-
+import {useTranslations} from 'next-intl';
 
 
 const Page = () => {
+    const t = useTranslations('AboutPage');
     return (
             <>
-                <PageHeader title={"About Us"}
-                            subtitle={"We are Passionate About Helping Businesses Thrive with Technology"}
+                <PageHeader title={t('title')}
+                            subtitle={t('subtitle')}
                             href={"about"}/>
 
                 <About></About>

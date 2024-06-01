@@ -2,12 +2,13 @@ import React from 'react';
 import Link from "next/link";
 import PageHeader from "../../../components/PageHeader";
 import Blogs from "../../../components/Blogs";
-
+import {useTranslations} from 'next-intl';
 const Page = () => {
+    const t = useTranslations('CasePage');
     return (
        <>
-       <PageHeader title={"Our Case"}
-                   subtitle={"Showcases a variety of projects that we have completed for our clients"}
+       <PageHeader title={t('title')}
+                   subtitle={t('subtitle')}
                    href={"case"}/>
 
            <Blogs></Blogs>

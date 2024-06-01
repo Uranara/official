@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from "next/link";
 import Image from "next/image";
+import {useTranslations} from 'next-intl';
 
 interface BlogsProps {
     imageSrc: string,
@@ -12,7 +13,6 @@ interface BlogsProps {
 }
 
 const BlogsSite = ({imageSrc, department, title, author, date, text}: BlogsProps) => {
-
     return (
         <article>
             <Image className={"rounded-t-2xl"} src={imageSrc} alt={"work1"} width={380} height={240}/>
@@ -33,35 +33,34 @@ const BlogsSite = ({imageSrc, department, title, author, date, text}: BlogsProps
 
 }
 const Blogs = () => {
+    const t = useTranslations('Blogs');
     return (
         <section className={"max-container mt-16 flex justify-center "}>
             <div>
                 <div className={"text-center"}>
-                    <h1 className={"text-[32px] text-green-10"}>Blogs</h1>
-                    <p className={"text-[15px] leading-10 mb-14 text-blue-75"}>Our latest blog posts, featuring images
-                        and videos to enhance your reading experience</p>
+                    <h1 className={"text-[32px] text-green-10"}>{t('title')}</h1>
+                    <p className={"text-[15px] leading-10 mb-14 text-blue-75"}>{t('subtitle')}</p>
                 </div>
                 <div className={"grid grid-cols-3 gap-4"}>
 
                     <BlogsSite imageSrc={"/work1.jpg"}
-                               department={"Sales Department"}
-                               title={"How to host website on any hosting provider?"}
+                               department={t('department1')}
+                               title={t('title1')}
                                author={"William Smith"}
                                date={"Feb 1,2022"}
-                               text={"To host a website on any hosting provider, you need to follow these steps: 1 Choose a\n" +
-                                   "                                hosting provider and sign up for a hosting plan."} />
+                               text={t('text1')} />
                     <BlogsSite imageSrc={"/work2.jpg"}
-                               department={"Brand Department"}
-                               title={"How to create add on google adwords?"}
+                               department={t('department2')}
+                               title={t('title2')}
                                author={"Ana Will"}
                                date={"Oct 5, 2022"}
-                               text={"Google AdWords add-ons are third-party tools and services that can extend the functionality of the AdWords platform. They can help you"} />
+                               text={t('text2')}  />
                     <BlogsSite imageSrc={"/work3.jpg"}
-                               department={"Marketing Department"}
-                               title={"What is digital marketing and why is important?"}
+                               department={t('department3')}
+                               title={t('title2')}
                                author={"Joni"}
                                date={"Dec 22, 2022"}
-                               text={"Digital marketing is the use of digital channels to promote or market products or services to consumers and businesses. It includes a wide"}/>
+                               text={t('text3')}/>
 
                 </div>
             </div>
