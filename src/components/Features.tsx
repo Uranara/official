@@ -1,5 +1,5 @@
 import React, {ReactNode} from 'react';
-import {Airplay, Atom, Radiation, Wind} from "lucide-react";
+import {Atom, Cpu, Radiation, Wind} from "lucide-react";
 import {useTranslations} from 'next-intl';
 
 interface FeaturesProps {
@@ -28,11 +28,18 @@ const FeaturesSite = ({icon, title, subtitle1, subtitle2, subtitle3}: FeaturesPr
 const Features = () => {
     const t = useTranslations('Features');
     const keys = ['radiantPanel', 'freshAirSystem', 'centralControl'] as const;
+    const icons = {
+        radiantPanel: <Radiation color="#46a96a" size={40} />,
+        freshAirSystem: <Wind color="#46a96a" size={40} />,
+        centralControl: <Cpu color="#46a96a" size={40} />
+
+    };
     return (
         <section className={"grid grid-cols-3 gap-2  text-center text-gray-5 max-container"}>
             {
                 keys.map((key,index) => (
-                    <FeaturesSite key={index} icon={<Radiation color="#46a96a" size={40}/>}
+                    <FeaturesSite key={index}
+                                  icon={icons[key]}
                                   title={t(`${key}.title`)}
                                   subtitle1={t(`${key}.subtitles1`)}
                                   subtitle2={t(`${key}.subtitles2`)}
@@ -40,9 +47,7 @@ const Features = () => {
                     />
                 ))
             }
-
         </section>
-
     );
 };
 

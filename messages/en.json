@@ -104,28 +104,20 @@
     "label": "Follow us",
     "Services": {
       "title": "Services",
-      "links1": "Web Design",
-      "links2": "App Development",
-      "links3": "Cloud Services",
-      "links4": "Domain And Hosting",
-      "links5": "Seo Optimization",
-      "links6": "Social Media",
-      "links7": "Data Secure",
-      "links8": "Web Hosting"
+      "links1": "Radiant Panel",
+      "links2": "Fresh Air System",
+      "links3": "Central Control"
+
     },
     "Information": {
       "title": "Information",
-      "links1": "About",
-      "links2": "Pricing",
-      "links3": "FAQs",
-      "links4": "Team",
-      "links5": "Blogs",
-      "links6": "Single Blog",
-      "links7": "Terms & Conditions",
-      "links8": "Sample Page"
+      "links1": "Case",
+      "links2": "Talent Recruitment",
+      "links3": "Contact US"
+
     },
     "ContactsTitle": "Contacts",
-    "text": "Building 17, Binjiang Innovation Park, 198 Pushun Road, Beilun District, Ningbo, Zhejiang\n"
+    "text": "Building 17, Binjiang Innovation Park, 198 Pushun Road, Beilun District, Ningbo, Zhejiang"
 
   },
 
@@ -135,7 +127,32 @@
   },
   "ServicePage": {
     "title": "Services",
-    "subtitle": "We focus on providing the highest quality service."
+    "subtitle": "We focus on providing the highest quality service.",
+    "radiantPanel": {
+      "title": "New radiant panel technology",
+      "text": "Freena adopts ceiling radiation mode, which simulate the comfortable environment where natural heat transfer happens to achieve zone control and real-time control., higher energy efficiency and dissipation can be achieved with load up to 140 watts per square meter, meanwhile, temperature distributed uniformly and almost no heat loss."
+    },
+    "freshAirSystem": {
+      "title": "Fresh air system equipped with Enthalpy heat exchange",
+      "text": "The intelligent fresh air system features of constant air flow, air temperature control, variable dew point, full renewal air. Temperature and humidity are always in a comfortable balance for the human body, effectively solving problems such as non-opening windows, condensation, and mold from the past."
+    },
+    "centralControl": {
+      "title": "Central control system",
+      "text": "Freena continues to promote the humanized intelligent experience. More than three programming languages are applied to the program, so that it can meet the requirements of the space industry grade operating system. The system resembling brain, eye, arms and legs  can achieve the self-adaption between system and human, which make it more intelligent to receive and reflect information. Complete air data collection in 3 seconds and instruct operations to each part of the system according to the data feedback."
+    },
+    "AerospaceGrade": {
+      "title": "Aerospace grade material",
+      "text": "At present, the raw materials of plastic in the industry can only meet civil use grade or industrial use grade while Freena use aerospace grade material, and selects suppliers who are in business with luxury car, therefore, avoid the 5% repair rate that other manufacturers have been confronted after three to five years use."
+    },
+    "NewCenter": {
+      "title": "New water-mixing center",
+      "text": "Our new water-mixing center is connected to multifunctional circulating pump and electronic constant pressure valve, to adjust water temperature with variable frequency, which, never applied in the HAVC industry before."
+    },
+    "Energy": {
+      "title": "Energy conservation and emission reduction in active house",
+      "text": "Due to the perfect interaction of the three systems (fresh air system, radiant panel, water mixing center system), reduce the dependence on the passive room technology."
+    }
+
   },
   "CasePage": {
     "title": "Our Case",
