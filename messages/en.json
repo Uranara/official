@@ -4,13 +4,13 @@
     "nav1": "Home",
     "nav2": "About us",
     "nav3": "Services",
-    "nav3_1": "Services",
-    "nav3_2": "Single Services",
-    "nav3_3": "Pricing",
+    "nav3_1": "service Content ",
+    "nav3_2": "Product Value",
+    "nav3_3": "System Applications",
     "nav4": "Case",
-    "nav4_1": "Projects",
-    "nav4_2": "Single Projects",
-    "nav4_3": "Success Cases",
+    "nav4_1": "Case Introduction",
+    "nav4_2": "News Center",
+    "nav4_3": "Case Consultation",
     "nav5": "Contact Us",
     "login": "Login"
   },
@@ -81,17 +81,17 @@
 
   },
   "Blogs": {
-    "title": "Blogs",
-    "subtitle": "Our latest blog posts, featuring images and videos to enhance your reading experience",
+    "title": "News Center",
+    "subtitle": "Our latest news posts, featuring images and videos to enhance your reading experience",
     "department1": "Sales Department",
     "department2": "Brand Department",
     "department3": "Marketing Department",
     "title1" : "What is a radiation plate system ?",
     "title2" : "What are the three major technological innovations?",
     "title3" : "Differences from traditional air conditioning",
-    "text1": "The origin of the single sided radiant panel system originated in the Mediterranean climate of Italy, which is hotter than the Nordic climate. In order to increase the end cooling capacity, it is necessary to increase the flow rate and add metal aluminum plates to make the heat diffusion more uniform\n",
+    "text1": "The origin of the single sided radiant panel system originated in the Mediterranean climate of Italy. In order to increase the end cooling capacity, it is necessary to increase the flow rate and add metal aluminum plates to make the heat diffusion more uniform.",
     "text2": "The Freena  Intelligent Radiation Air Conditioning System, combined with thermal comfort theory, not only achieves human temperature and humidity comfort, but also meets the environmental standards of natural restoration for air quality.",
-    "text3": "The significance of air conditioners is to affect the experience of evaporation by controlling convection and radiation. When convection and radiation can allow the human body to enter a state of natural evaporation without feeling, the comfort provided is the highest"
+    "text3": "The significance of air conditioners is to affect the experience of evaporation by controlling convection and radiation. When convection and radiation can allow the human body to enter a state of natural evaporation without feeling, the comfort provided is the highest."
   },
   "Subscribe": {
     "title": "Do not miss to subscribe to our new feeds",

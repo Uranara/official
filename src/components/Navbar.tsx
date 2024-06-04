@@ -33,20 +33,20 @@ const Navbar = () => {
                     <Image src={"/logo.png"} alt={"logo"} width={108} height={28}></Image>
                     <p className={"flex justify-center text-green-5 text-[10px]"}>{t('CompanyName')}</p>
                 </Link>
-                <ul className={"hidden h-full gird grid-rows-5 gap-12 lg:flex "}>
-                    <li>
+                <ul className={"hidden h-full grid-rows-5 gap-12 lg:flex "}>
+                    <li className={"ml-6 "}>
                         <Link href={"/"} key={"Home"}
                               className={"nav-link"}>
                             {t('nav1')}
                         </Link>
                     </li>
-                    <li>
+                    <li className={"ml-6 pl-6"}>
                         <Link href={`/${localActive}/about`} key={"About Us"}
                               className={"nav-link"}>
                             {t('nav2')}
                         </Link>
                     </li>
-                    <li className={"group"}>
+                    <li className={"group ml-6 pl-6"}>
                         <Link href={`/${localActive}/services`} key={"Services"} className={"nav-link"}>
                             {t('nav3')}
                             <ChevronDown/>
@@ -62,7 +62,7 @@ const Navbar = () => {
 
                     </li>
 
-                    <li className={"group"}>
+                    <li className={"group ml-6 pl-6"}>
                         <Link href={`/${localActive}/case`} key={"Case"} className={"nav-link"}>
                             {t('nav4')}
                             <ChevronDown/>
@@ -77,7 +77,7 @@ const Navbar = () => {
                         </ul>
                     </li>
 
-                    <li>
+                    <li className={"ml-6 pl-6"}>
                         <Link href={`/${localActive}/contact`} key={"Contact Us"} className={"nav-link"}>
                             {t('nav5')}
                         </Link>

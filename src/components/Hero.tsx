@@ -3,11 +3,11 @@ import ParticlesContainer from "@/constants/ParticlesContainer";
 import Button from "@/components/Button";
 import TypeWriteEffect from "@/constants/TypeWriteEffect";
 import {SLOGAN} from "@/constants";
-import {useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-intl';
 
 const Hero = () => {
     const t = useTranslations('Hero');
-
+    const localActive = useLocale()
     return (
         <section className={"bg-hero  w-screen  h-[750px] bg-cover  "}>
             <ParticlesContainer></ParticlesContainer>
@@ -24,7 +24,7 @@ const Hero = () => {
                         type="button"
                         title={t('buttonTitle1')}
                         variant="btn_dark_white"
-                        href="/contact"
+                        href={`/${localActive}/contact`}
                     >
                     </Button>
 
@@ -32,7 +32,7 @@ const Hero = () => {
                         type="button"
                         title={t('buttonTitle2')}
                         variant="btn_dark_green"
-                        href="/about"
+                        href={`/${localActive}/about`}
                     >
                     </Button>
                 </div>

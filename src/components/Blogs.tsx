@@ -14,7 +14,7 @@ interface BlogsProps {
 
 const BlogsSite = ({imageSrc, department, title, author, date, text}: BlogsProps) => {
     return (
-        <article>
+        <article className={"mb-6"}>
             <Image className={"rounded-t-2xl"} src={imageSrc} alt={"work1"} width={380} height={240}/>
             <div className={"w-[380px] bg-gray-2 p-8 rounded-b-2xl"}>
                 <h1 className={"text-[16px] text-gray-8"}>{department}</h1>
