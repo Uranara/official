@@ -1,5 +1,5 @@
 import React, {ReactNode} from 'react';
-import {Atom, Cpu, Radiation, Wind} from "lucide-react";
+import {Atom, Blocks, Cpu, Wind} from "lucide-react";
 import {useTranslations} from 'next-intl';
 
 interface FeaturesProps {
@@ -12,7 +12,7 @@ interface FeaturesProps {
 
 const FeaturesSite = ({icon, title, subtitle1, subtitle2, subtitle3}: FeaturesProps) => {
     return (
-        <div className={"bg-gray-1  p-20 mt-16  "}>
+        <div className={"bg-gray-1  p-10 mt-16  "}>
             <div className={"flex justify-center"}>
                 {icon || <Atom color="#46a96a" size={40}/>}
             </div>
@@ -29,7 +29,7 @@ const Features = () => {
     const t = useTranslations('Features');
     const keys = ['radiantPanel', 'freshAirSystem', 'centralControl'] as const;
     const icons = {
-        radiantPanel: <Radiation color="#46a96a" size={40} />,
+        radiantPanel: <Blocks color="#46a96a" size={40} />,
         freshAirSystem: <Wind color="#46a96a" size={40} />,
         centralControl: <Cpu color="#46a96a" size={40} />
 

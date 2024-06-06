@@ -16,7 +16,6 @@ const Page = () => {
                     <div className={"row-span-3 p-4 rounded-lg shadow-lg bg-gray-2 "}>
                         <div>
                             <h1 className={"text-green-10 capitalize mb-3 text-[18px]"}>{t('label1')}</h1>
-                            <p className={"text-gray-7 text-[14px] font-medium mb-2"}>{t('address1')}</p>
                             <p className={"text-gray-7  text-[14px] font-medium mb-2"}>{t('address2')}</p>
                             <p className={"text-gray-7  text-[14px] font-medium mb-2"}>{t('address3')}</p>
                         </div>

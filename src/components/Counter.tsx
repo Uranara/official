@@ -26,9 +26,9 @@ const Counter = () => {
         <div className={" relative overflow-hidden min-h-96  "}>
             <div className={"absolute bg-section bg-blend-color-dodge  w-screen  h-[300px] bg-cover bg-center  mb-36 mt-16  bg-fixed inset-0"}>
                <div className={"grid place-items-center grid-cols-3 gap-12 text-white h-full max-container"}>
-                   <CounterSite icon={<Users color="#ffffff" size={40} />} num={234} subtitle={t('subtitle1')} />
-                   <CounterSite icon={<Trophy color="#ffffff" size={40} />} num={121} subtitle={t('subtitle2')} />
-                   <CounterSite icon={<Clock color="#ffffff" size={40} />} num={853} subtitle={t('subtitle3')} />
+                   <CounterSite icon={<Users color="#ffffff" size={40} />} num={1232123459} subtitle={t('subtitle1')} />
+                   <CounterSite icon={<Trophy color="#ffffff" size={40} />} num={12} subtitle={t('subtitle2')} />
+                   <CounterSite icon={<Clock color="#ffffff" size={40} />} num={85} subtitle={t('subtitle3')} />
                </div>
             </div>
         </div>

@@ -15,11 +15,9 @@
     "login": "Login"
   },
   "Hero": {
-    "sloan": [
-      "Global Leader Of Intelligent Indoor Micro Environment",
-      "Create An Indoor Living Environment That Fosters Comfort And Life Span",
-      "Human ,Poetically Dwelling On The Earth"
-    ],
+    "sloan1": "Global Leader Of Intelligent Indoor Micro Environment",
+    "sloan2": "Create An Indoor Living Environment That Fosters Comfort And Life Span",
+    "sloan3": "Human ,Poetically Dwelling On The Earth",
     "title": "This is Freena",
     "buttonTitle1": "Contact Us",
     "buttonTitle2": "How Freena work ?"
@@ -27,21 +25,21 @@
   "Features": {
     "radiantPanel": {
       "title": "Radiant Panel Technology",
-      "subtitles1": "Effective Insulation",
-      "subtitles2": "Precise Temperature Control",
-      "subtitles3": "Easy To Install"
+      "subtitles1": "Efficient insulation, uniform temperature with almost no heat loss",
+      "subtitles2": "Accurate temperature control with temperature fluctuations less than 0.5 ℃",
+      "subtitles3": "Easy to install, suitable for various installation needs in various scenarios"
     },
     "freshAirSystem": {
       "title": "Fresh Air System Equipped",
-      "subtitles1": "Full Air Replacement",
-      "subtitles2": "Air Quality Control",
-      "subtitles3": "Precise Control Of Humidity And Temperature"
+      "subtitles1": "Fresh air replacement, quick removal of indoor pollutants\nDual dual effect filtration, dust particle filtration efficiency>99%",
+      "subtitles2": "Accurate control of humidity and temperature to ensure indoor comfort and pleasant atmosphere\nEnthalpy exchange total heat recovery technology, environmentally friendly and energy-saving",
+      "subtitles3": "Aerospace standard process, noise isolation"
     },
     "centralControl": {
       "title": "Central Control System",
-      "subtitles1": "High Accuracy Sensor",
-      "subtitles2": "Central Processing Unit",
-      "subtitles3": "Stable Operation"
+      "subtitles1": "The first self-developed dual system sensor on the market, with an accuracy of 99%",
+      "subtitles2": "Internet of Things application technology proactively identifies and initiates corresponding solutions in case of anomalies.\nAccurately monitor the usage of equipment and provide early after-sales service for possible malfunctions.",
+      "subtitles3": "Dual system, dual channel, and dual backup settings enable real-time response to extremely harsh environments."
     }
   },
   "About": {
@@ -53,16 +51,16 @@
   },
   "Idea": {
     "title": "Why Choose Us?",
-    "subtitle": "With the rapid development of technology and business, choosing the right partner is crucial for your business success.",
-    "label1": "Expertise",
-    "label2": "Experience",
-    "label3": "Quality",
-    "label4": "Products",
-    "label5": "Timely",
-    "label6": "Delivery",
-    "content1": "Deep knowledge and skill in a particular area. Practical knowledge gained from work or other activities.",
-    "content2": "A high standard of performance or excellence. Goods or services that are offered for sale.",
-    "content3": "Done or happening at the right time. The act of handing over something to someone."
+    "subtitle": "A New Definition of a Better Life in the Era",
+    "label1": "Team Expertise",
+    "label2": "High End Products",
+    "label3": "Excellent Quality",
+    "label4": "Comprehensive Protection",
+    "label5": "Advanced Service",
+    "label6": "Permanent Warranty",
+    "content1": "Originating from the Italian R&D team, with a complete set of core patented technologies.",
+    "content2": "Our self-developed and self-produced products have guaranteed quality.",
+    "content3": "Advance after-sales service without worries."
   },
   "Counter": {
     "subtitle1": "Happy Clients",
@@ -70,15 +68,14 @@
     "subtitle3": "Hours Of Support"
   },
   "Clients": {
-    "title": "Testimonials",
-    "subtitle": "Our testimonials are a testament to the satisfaction of our clients",
-    "altText1":"Decoration Workers",
-    "altText2":"Villa Owner",
-    "altText3":"Home Appliance Agents",
-    "text1": "The company is driven by core technology, led by advanced brands, and guided by intelligent services.",
-    "text2": "Focusing on customers and technology, we are committed to becoming a global leader in indoor micro environment.",
-    "text3": "Innovation, integrity, pragmatism, passion."
-
+    "title": "Assist in industrial transformation and upgrading",
+    "subtitle": "Contribute enterprise strength to achieve China's carbon neutrality goal",
+    "altText1": "Green technology ",
+    "altText2": "Drive the development ",
+    "altText3": "Freena Value Empowerment",
+    "text1": "Driven by the national \"innovation driven\" strategy, emerging technologies are integrating and permeating multiple fields at an unprecedented speed.",
+    "text2": "With our efforts, the built-in main controller, air compressor, radiation plate, distributed valve, enthalpy heat exchanger, filter and other components of the system.",
+    "text3": "Enhance brand competitiveness, help enterprises climb new heights, create new lifestyles, and lead smart living."
   },
   "Blogs": {
     "title": "News Center",
@@ -86,9 +83,9 @@
     "department1": "Sales Department",
     "department2": "Brand Department",
     "department3": "Marketing Department",
-    "title1" : "What is a radiation plate system ?",
-    "title2" : "What are the three major technological innovations?",
-    "title3" : "Differences from traditional air conditioning",
+    "title1": "What is a radiation plate system ?",
+    "title2": "What are the three major technological innovations?",
+    "title3": "Differences from traditional air conditioning",
     "text1": "The origin of the single sided radiant panel system originated in the Mediterranean climate of Italy. In order to increase the end cooling capacity, it is necessary to increase the flow rate and add metal aluminum plates to make the heat diffusion more uniform.",
     "text2": "The Freena  Intelligent Radiation Air Conditioning System, combined with thermal comfort theory, not only achieves human temperature and humidity comfort, but also meets the environmental standards of natural restoration for air quality.",
     "text3": "The significance of air conditioners is to affect the experience of evaporation by controlling convection and radiation. When convection and radiation can allow the human body to enter a state of natural evaporation without feeling, the comfort provided is the highest."
@@ -107,20 +104,16 @@
       "links1": "Radiant Panel",
       "links2": "Fresh Air System",
       "links3": "Central Control"
-
     },
     "Information": {
       "title": "Information",
       "links1": "Case",
       "links2": "Talent Recruitment",
       "links3": "Contact US"
-
     },
     "ContactsTitle": "Contacts",
     "text": "Building 17, Binjiang Innovation Park, 198 Pushun Road, Beilun District, Ningbo, Zhejiang"
-
   },
-
   "AboutPage": {
     "title": "About Us",
     "subtitle": "We are Passionate About Helping Businesses Thrive with Technology."
@@ -152,7 +145,6 @@
       "title": "Energy conservation and emission reduction in active house",
       "text": "Due to the perfect interaction of the three systems (fresh air system, radiant panel, water mixing center system), reduce the dependence on the passive room technology."
     }
-
   },
   "CasePage": {
     "title": "Our Case",
@@ -164,7 +156,6 @@
     "label1": "Address:",
     "label2": "Phone:",
     "label3": "Email:",
-    "address1": "Administration: 5F, Building D, Huasheng International, 1666 Jiangnan Road, Beilun District, Ningbo, Zhejiang",
     "address2": "R&D center: Building 17, Binjiang Innovation Park, 198 Pushun Road, Beilun District, Ningbo, Zhejiang",
     "address3": "Nanjing Company：12th Floor, Building B1, Nanjing Jingfeng Lechuang Center, No. 68 Huachuang Road, Pukou District, Nanjing City, Jiangsu Province",
     "placeholder1": "Name*",
@@ -173,5 +164,4 @@
     "placeholder4": "Write Your Message*",
     "buttonText": "Send Message"
   }
-
 }

@@ -22,6 +22,7 @@ const ServicePageSite = ({icon,title,text}:ServicePageProps) => {
                 {text}
             </p>
         </div>
+        
     )
 }
 
