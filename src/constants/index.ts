@@ -1,4 +1,4 @@
- // NAVIGATION
+// NAVIGATION
 export const NAV_LINKS = [
     {href: '/', key: 'Home', label: 'Home'},
     {href: '/', key: 'About Us', label: 'About us'},
@@ -8,14 +8,19 @@ export const NAV_LINKS = [
 ];
 
 
-
-
-export const SLOGAN = [
+export const SLOGAN_EN = [
     "Global Leader Of Intelligent Indoor Micro Environment",
     "Create An Indoor Living Environment That Fosters Comfort And Life Span",
     "Human ,Poetically Dwelling On The Earth"
 
 ]
+export const SLOGAN_ZH = [
+    "全球室内微气候智控引领者",
+    "创造一个能提高舒适度和寿命的室内生活环境",
+    "人诗意的栖居在大地之上"
+
+]
+
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [

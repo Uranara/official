@@ -18,12 +18,12 @@ const LocalSwitcher = () => {
             <label className={""}>
                 <p className={"sr-only"}>language change</p>
                 <select name="" id="" defaultValue={localActive}
-                        className={"bg-transparent py-2  "}
+                        className={"bg-transparent py-2 text-gray-20 cursor-pointer bold-16  select-no-border"}
                         onChange={onSelectChange}
                         disabled={isPending}
                 >
-                    <option value="en">English</option>
-                    <option value="zh">Chinese</option>
+                    <option value="en" className={"text-center"}>English</option>
+                    <option value="zh" className={"text-center"}>中文</option>
                 </select>
             </label>
         </div>
