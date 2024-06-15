@@ -57,7 +57,7 @@ const Blogs = () => {
                                text={t('text2')}  />
                     <BlogsSite imageSrc={"/work3.jpg"}
                                department={t('department3')}
-                               title={t('title2')}
+                               title={t('title3')}
                                author={"Joni"}
                                date={"Dec 22, 2022"}
                                text={t('text3')}/>

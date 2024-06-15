@@ -20,7 +20,14 @@ export const SLOGAN_ZH = [
     "人诗意的栖居在大地之上"
 
 ]
-
+// export const SLOGAN_ZH = [
+//     "那是你的事哦，我只需要知道时间",
+//     "网站，好了没呀，给个地址",
+//     "这一部分撤掉吧",
+//     "完不成内容，报酬是有受影响的",
+//     "浅显的基础调整，未额外增加任务，这些当时都已沟通过的，请按约定进行哈",
+//
+// ]
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [

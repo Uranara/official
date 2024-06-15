@@ -7,6 +7,7 @@ import Counter from "../../components/Counter";
 import Clients from "../../components/Clients";
 import Blogs from "../../components/Blogs";
 import Subscribe from "../../components/Subscribe";
+import Reward from "@/components/Reward";
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
             <Counter></Counter>
             {/*<Clients></Clients>*/}
             <Blogs></Blogs>
+            {/*<Reward></Reward>*/}
             <Subscribe></Subscribe>
         </>
     );
