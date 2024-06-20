@@ -17,15 +17,15 @@ const Footer = () => {
                         <h1 className={"text-[24px] mb-6 font-bold"}>{t(`Services.title`)}</h1>
                         <ul className={"flex flex-col"}>
                             <li className={"mb-3"}>
-                                <Link href={`/${localActive}/services`} className={"hover:underline"}
+                                <Link href={`/${localActive}/content`} className={"hover:underline"}
                                 >{t(`Services.links1`)}</Link>
                             </li>
                             <li className={"mb-3"}>
-                                <Link href={`/${localActive}/services`} className={"hover:underline"}
+                                <Link href={`/${localActive}/value`} className={"hover:underline"}
                                 >{t(`Services.links2`)}</Link>
                             </li>
                             <li className={"mb-3"}>
-                                <Link href={`/${localActive}/services`} className={"hover:underline"}
+                                <Link href={`/${localActive}/system`} className={"hover:underline"}
                                 >{t(`Services.links3`)}</Link>
                             </li>
                         </ul>
@@ -34,7 +34,7 @@ const Footer = () => {
                         <h1 className={"text-[24px] mb-6 font-bold"}>{t(`Information.title`)}</h1>
                         <ul className={"flex flex-col"}>
                             <li className={"mb-3"}>
-                                <Link href={`/${localActive}/case`} className={"hover:underline"}
+                                <Link href={`/${localActive}/cases`} className={"hover:underline"}
                                 >{t(`Information.links1`)}</Link>
                             </li>
                             <li className={"mb-3"}>

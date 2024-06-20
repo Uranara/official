@@ -4,7 +4,7 @@
     "nav1": "Home",
     "nav2": "About Us",
     "nav3": "Services",
-    "nav3_1": "service Content ",
+    "nav3_1": "Service Content",
     "nav3_2": "Product Value",
     "nav3_3": "System Applications",
     "nav4": "News",
@@ -101,9 +101,9 @@
     "label": "Follow us",
     "Services": {
       "title": "Services",
-      "links1": "Radiant Panel",
-      "links2": "Fresh Air System",
-      "links3": "Central Control"
+      "links1": "Service Content",
+      "links2": "Product Value",
+      "links3": "System Applications"
     },
     "Information": {
       "title": "Information",
