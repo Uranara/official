@@ -7,34 +7,46 @@ import {useLocale, useTranslations} from 'next-intl';
 const Footer = () => {
     const localActive = useLocale()
     const t = useTranslations('Footer');
-    const keys = ["Services", "Information"] as const
+
     return (
         <footer className={"relative bg-footer-bg bg-cover bg-center h-full pt-[90px]"}>
             <div className={" max-container padding-container relative z-20 text-white"}>
-                {/*<div className={"grid grid-cols-4 gap-4 "}>*/}
                 <div className={"grid grid-cols-3 gap-4 "}>
-                    {/*<div>*/}
-                    {/*    <h1 className={"text-6xl font-bold  mb-6"}>{t('title')}</h1>*/}
-                    {/*    <p className={"text-[14px] mb-4"}>{t('subtitle')}</p>*/}
-                    {/*    <h3 className={"mb-6 text-[20px]"}>{t('label')}</h3>*/}
-                    {/*    <div className={"flex flex-row"}>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
 
-                    {
-                        keys.map((key,index) => (
-                            <div key={index}>
-                                <h1 className={"text-[24px] mb-6 font-bold"}>{t(`${key}.title`)}</h1>
-                                <ul className={"flex flex-col"}>
-                                    <Link href={`/${localActive}/about`} className={"mb-3  hover:underline"}>{t(`${key}.links1`)}</Link>
-                                    <Link href={`/${localActive}/services`} className={"mb-3  hover:underline"}>{t(`${key}.links2`)}</Link>
-                                    <Link href={`/${localActive}/case`} className={"mb-3  hover:underline"}>{t(`${key}.links3`)}</Link>
-                                </ul>
-                            </div>
-                        ))
-                    }
-
-
+                    <div>
+                        <h1 className={"text-[24px] mb-6 font-bold"}>{t(`Services.title`)}</h1>
+                        <ul className={"flex flex-col"}>
+                            <li className={"mb-3"}>
+                                <Link href={`/${localActive}/services`} className={"hover:underline"}
+                                >{t(`Services.links1`)}</Link>
+                            </li>
+                            <li className={"mb-3"}>
+                                <Link href={`/${localActive}/services`} className={"hover:underline"}
+                                >{t(`Services.links2`)}</Link>
+                            </li>
+                            <li className={"mb-3"}>
+                                <Link href={`/${localActive}/services`} className={"hover:underline"}
+                                >{t(`Services.links3`)}</Link>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 className={"text-[24px] mb-6 font-bold"}>{t(`Information.title`)}</h1>
+                        <ul className={"flex flex-col"}>
+                            <li className={"mb-3"}>
+                                <Link href={`/${localActive}/case`} className={"hover:underline"}
+                                >{t(`Information.links1`)}</Link>
+                            </li>
+                            <li className={"mb-3"}>
+                                <Link href={"http://www.freena.com.cn/cn/hr.html"} className={"hover:underline"}
+                                >{t(`Information.links2`)}</Link>
+                            </li>
+                            <li className={"mb-3"}>
+                                <Link href={`/${localActive}/contact`} className={"hover:underline"}
+                                >{t(`Information.links3`)}</Link>
+                            </li>
+                        </ul>
+                    </div>
                     <div>
                         <h1 className={"text-[24px] mb-6 font-bold"}>{t('ContactsTitle')}</h1>
                         <ul className={"flex flex-col cursor-pointer"}>

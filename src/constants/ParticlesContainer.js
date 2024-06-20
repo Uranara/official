@@ -18,7 +18,7 @@ const ParticlesContainer = () => {
     const particlesLoaded = useCallback(async () => {
     }, [])
 
-    return <Particles className={"w-screen h-[750px] absolute  "} id={"particles"}
+    return <Particles className={"w-screen h-[800px] absolute  "} id={"particles"}
                       particlesLoaded={particlesLoaded} options={
         {
             fullScreen: {enable: false},

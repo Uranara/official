@@ -10,7 +10,7 @@ const Hero = () => {
     const localActive = useLocale()
     const slogan = localActive === "en" ? SLOGAN_EN : SLOGAN_ZH
     return (
-        <section className={"bg-hero  w-screen  h-[750px] bg-cover  "}>
+        <section className={"bg-study  w-screen  h-[800px] bg-cover "}>
             <ParticlesContainer></ParticlesContainer>
 
             <div className={"flex  flex-col  justify-center  px-12 py-64   items-center relative "}>

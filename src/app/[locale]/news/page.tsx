@@ -9,7 +9,7 @@ const Page = () => {
        <>
        <PageHeader title={t('title')}
                    subtitle={t('subtitle')}
-                   href={"case"}/>
+                   href={"news"}/>
 
            <Blogs></Blogs>
        </>

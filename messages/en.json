@@ -8,10 +8,10 @@
     "nav3_2": "Product Value",
     "nav3_3": "System Applications",
     "nav4": "News",
-    "nav4_1": "News Introduction",
-    "nav4_2": "News Center",
-    "nav4_3": "News Consultation",
-    "nav5": "Contact Us",
+    "nav4_1": "Classic Cases",
+    "nav4_2": "Media Center",
+    "nav4_3": "Case Consultation",
+    "nav5": "Contact",
     "login": "Login"
   },
   "Hero": {
@@ -163,5 +163,40 @@
     "placeholder3": "Subject*",
     "placeholder4": "Write Your Message*",
     "buttonText": "Send Message"
+  },
+  "ContentPage": {
+    "title": "Service Content ",
+    "subtitle": "The company has a strong pre-sales, in sales, and after-sales tracking high-quality service, providing you with a better service experience!"
+  },
+  "ValuePage": {
+    "title": "Product Value",
+    "subtitle": "Leading technology originating from Italy (Francesco), founder of Freena, former technical expert at the European Space Agency",
+    "radiantPanel": {
+      "title": "New radiant panel technology",
+      "text": "Freena adopts ceiling radiation mode, which simulate the comfortable environment where natural heat transfer happens to achieve zone control and real-time control., higher energy efficiency and dissipation can be achieved with load up to 140 watts per square meter, meanwhile, temperature distributed uniformly and almost no heat loss.",
+      "p1": "Effective insulation: one-way transfer, greatly improve the cooling/heating efficiency.",
+      "p2": "Precise temperature control: temperature fluctuation value less than 0.5℃; The luxury radiant panel reaches the optimal surface temperature in 10 minutes, which is 100% more efficient than the most products in the market and 300% than capillary system.",
+      "p3": "Easy to install :ingenious design with a variety of cuttings, easy to install in the site."
+    },
+    "freshAirSystem": {
+      "title": "Fresh air system equipped with Enthalpy heat exchange",
+      "text": "The intelligent fresh air system features of constant air flow, air temperature control, variable dew point, full renewal air. Temperature and humidity are always in a comfortable balance for the human body, effectively solving problems such as non-opening windows, condensation, and mold from the past.",
+      "p1": "Full air replacement: Micro positive pressure ventilation, maintaining micro positive pressure indoors which quickly eliminate indoor pollutants, prevent unfiltered outdoor air from entering the room to control the air quality.",
+      "p2": "Air quality control: Double filtration, achieving a filtration efficiency over 99% for dust particles PM1, PM2.5, and PM10. Effectively replace and remove gaseous pollutants (TVOC, CO₂, etc.), monitor the use of the filter through draft pressure probes installed before and after the filter to ensure the indoor air AQI is always below 20.",
+      "p3": "Precise control of humidity and temperature: precise control of humidity, temperature, and air delivery to ensure replacement efficiency.",
+      "p4": "Enthalpy exchange technology: Use imported enthalpy film full heat recovery, to achieve sensible heat and latent heat recovery energy at the same time, ensure that indoor temperature and humidity in great balance and more energy saving.",
+      "p5": "Noise control: Aerospace grade high-density EPP, with excellent noise reduction performance, no draft sensation, no draft noise."
+    },
+    "centralControl": {
+      "title": "Central control system",
+      "text": "Freena continues to promote the humanized intelligent experience. More than three programming languages are applied to the program, so that it can meet the requirements of the space industry grade operating system. The system resembling \"brain\", \"eye\", \" arms and legs \" can achieve the self-adaption between system and human, which make it more intelligent to receive and reflect information. Complete air data collection in 3 seconds and instruct operations to each part of the system according to the data feedback.",
+      "p1": "High accuracy sensor: Iterated from Germany control system developed more than 30 years, Freena owns the first dual-system sensor in the market, which can accurately monitor temperature, humidity, carbon dioxide, VOC, particulate matter, etc., and transmit the data in real time, with an accuracy of 99%.",
+      "p2": "Central processing unit: With application of internet of things, it features real-time tracking ,cloud transmission. If any exception of indoor environment/subsystem, the application will warn and actions will be taken if no feedback is received from the user. Monitor the operation of the devices precisely, with the ability of warning in advance to possible failures in accessories",
+      "p3": "Stable operation: Equipped with dual system and dual backup, both software and hardware endured with more than 30 years of verification (the integration of the two reach 99.9%). Even in extreme weather, the control system remains stable and perform constantly."
+    }
+  },
+  "SystemPage": {
+    "title": "System applications",
+    "subtitle": "Hotels/high-end homestays/collectibles, airports/high-speed rail office buildings/hospitals/beauty salons/postpartum centers/schools/museums/art galleries/archives/opera houses"
   }
 }

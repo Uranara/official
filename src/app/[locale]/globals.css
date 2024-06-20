@@ -83,7 +83,7 @@ footer:before {
     }
 
     .padding-container {
-        @apply px-6;
+        @apply px-6 container;
     }
 
     .flexCenter {

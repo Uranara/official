@@ -10,24 +10,24 @@ const config: Config = {
         extend: {
             colors: {
                 green: {
-                    5 : '#47a500',
+                    5: '#47a500',
                     10: '#46a96a',
                 },
                 gray: {
-                    1:  '#FAFAFA',
-                    2:  '#F7F7F7',
-                    3:  '#D4D4D4',
-                    4:  '#E4E4E4',
-                    5:  '#5F5F5F',
-                    6:  '#5F5F65',
-                    7:  '#424242',
-                    8:  '#B9B9B9',
+                    1: '#FAFAFA',
+                    2: '#F7F7F7',
+                    3: '#D4D4D4',
+                    4: '#E4E4E4',
+                    5: '#5F5F5F',
+                    6: '#5F5F65',
+                    7: '#424242',
+                    8: '#B9B9B9',
                     10: '#585858',
                     15: '#41464B',
                     20: '#41464B',
                     30: '#333D36',
                 },
-                blue:{
+                blue: {
                     75: '#415990',
                 },
 
@@ -36,6 +36,8 @@ const config: Config = {
             backgroundImage: {
                 "forest": "url('/forest.jpg')",
                 "hero": "url('/hero-bg.png')",
+                "indoor": "url('/indoor.jpg')",
+                "study": "url('/study.png')",
                 "section": "url('/section-bg.jpg')",
                 "footer-bg": "url('/footer-bg.jpg')",
             },
@@ -43,9 +45,7 @@ const config: Config = {
                 "out": "0px 7px 25px rgb(41 41 41 / 27%);",
                 "box": "0px 0px 13px 0px rgba(82, 90, 101, 0.12);"
             },
-            screens: {
-
-            },
+            screens: {},
         },
     },
     plugins: [],

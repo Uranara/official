@@ -19,7 +19,7 @@ const AboutSite = ({content}: AboutProps) => {
 const About = () => {
     const t = useTranslations('About');
     return (
-        <section className={"max-container  mt-16"}>
+        <section className={"max-container padding-container mt-16"}>
             <div className={"flex flex-row "}>
                 <div className={"basis-1/2"}>
                     <h1 className={"text-[32px] text-green-10"}>{t('title')}</h1>

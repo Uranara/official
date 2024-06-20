@@ -11,7 +11,7 @@ type  ButtonProps = {
 }
 const Button = ({type, title, icon, variant, href}: ButtonProps) => {
     return (
-        <Link href={href}>
+        <Link href={href} passHref>
             <button type={type} className={`flexCenter gap-3 rounded-full border ${variant}`}>
                 {icon}
                 <label className={"bold-16 whitespace-nowrap hover:cursor-pointer"}>{title}</label>

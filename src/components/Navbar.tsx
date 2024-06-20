@@ -52,27 +52,27 @@ const Navbar = () => {
                             <ChevronDown/>
                         </Link>
                         <ul className={"absolute p-8  space-y-4  rounded-xl  bg-white shadow-xl hidden group-hover:block"}>
-                            <li><Link href={`/${localActive}/services`} key={"Services"}
+                            <li><Link href={`/${localActive}/content`} key={"Content"}
                                       className={"base-link"}> {t('nav3_1')}</Link></li>
-                            <li><Link href={`/${localActive}/services`} key={"Single Services"}
+                            <li><Link href={`/${localActive}/value`} key={"Value"}
                                       className={"base-link"}>{t('nav3_2')}</Link></li>
-                            <li><Link href={`/${localActive}/services`} key={"Pricing"}
+                            <li><Link href={`/${localActive}/system`} key={"System"}
                                       className={"base-link"}>{t('nav3_3')}</Link></li>
                         </ul>
 
                     </li>
 
                     <li className={"group ml-6 pl-6"}>
-                        <Link href={`/${localActive}/case`} key={"Case"} className={"nav-link"}>
+                        <Link href={`/${localActive}/news`} key={"News"} className={"nav-link"}>
                             {t('nav4')}
                             <ChevronDown/>
                         </Link>
                         <ul className={"absolute p-8  space-y-4  rounded-xl  bg-white shadow-xl hidden group-hover:block"}>
-                            <li><Link href={`/${localActive}/case`} key={"Projects"}
+                            <li><Link href={`/${localActive}/cases`} key={"Projects"}
                                       className={"base-link"}>{t('nav4_1')}</Link></li>
-                            <li><Link href={`/${localActive}/case`} key={"Single Projects"}
+                            <li><Link href={`/${localActive}/media`} key={"Single Projects"}
                                       className={"base-link"}>{t('nav4_2')}</Link></li>
-                            <li><Link href={`/${localActive}/case`} key={"success cases"}
+                            <li><Link href={`/${localActive}/consult`} key={"success cases"}
                                       className={"base-link"}>{t('nav4_3')}</Link></li>
                         </ul>
                     </li>
