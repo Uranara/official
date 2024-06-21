@@ -20,7 +20,7 @@ const PageHeader = ({title,subtitle,href}:PageProps) => {
                 <div className={"w-full bg-green-10 py-6"}>
                     <div className={"max-container padding-container"}>
                         <Link href={"/"} className={"text-white hover:underline pr-2"}>Home</Link>
-                        <Link href={"/"+href} className={"before:content-['/'] before:pr-2 capitalize"}>{href}</Link>
+                        <span  className={"before:content-['/'] before:pr-2 capitalize"}>{href}</span>
                     </div>
                 </div>
             </div>

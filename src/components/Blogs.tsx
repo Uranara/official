@@ -18,7 +18,7 @@ const BlogsSite = ({imageSrc, department, title, author, date, text}: BlogsProps
             <Image className={"rounded-t-2xl"} src={imageSrc} alt={"work1"} width={380} height={240}/>
             <div className={"w-[380px] bg-gray-2 p-8 rounded-b-2xl"}>
                 <h1 className={"text-[16px] text-gray-8"}>{department}</h1>
-                <Link href={"#"} className={"text-green-10 text-[22px] hover:underline"}>{title}</Link>
+                <span  className={"text-green-10 text-[22px] hover:underline"}>{title}</span>
                 <div className={"flex justify-between  border-b "}>
                     <span className={"text-[15px] text-gray-6 mb-3"}>{author}</span>
                     <span className={"text-[14px] text-gray-3"}>{date}</span>
