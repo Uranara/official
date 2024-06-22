@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from "next/link";
 import PageHeader from "../../../components/PageHeader";
 import {useTranslations} from 'next-intl';
 import Button from "@/components/Button";
@@ -55,8 +54,6 @@ const Page = () => {
                     </div>
                 </div>
                 <div>
-
-
                 </div>
             </div>
         </>

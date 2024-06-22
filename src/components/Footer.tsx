@@ -38,7 +38,7 @@ const Footer = () => {
                                 >{t(`Information.links1`)}</Link>
                             </li>
                             <li className={"mb-3"}>
-                                <Link href={"http://www.freena.com.cn/cn/hr.html"} className={"hover:underline"}
+                                <Link href={`/${localActive}/recruit`} className={"hover:underline"}
                                 >{t(`Information.links2`)}</Link>
                             </li>
                             <li className={"mb-3"}>

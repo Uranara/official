@@ -1,7 +1,7 @@
 import React, {ReactNode} from 'react';
 
 import PageHeader from "../../../components/PageHeader";
-import { Cpu, Leaf, Lightbulb, Microscope, Radiation, Waves, Wind} from "lucide-react";
+import { Cpu, Leaf, Microscope, Radiation, Waves, Wind} from "lucide-react";
 import Clients from '@/components/Clients';
 import {useTranslations} from 'next-intl';
 
@@ -54,7 +54,6 @@ const Page = () => {
                             />
                         ))
                     }
-
                 </div>
             </div>
         </>

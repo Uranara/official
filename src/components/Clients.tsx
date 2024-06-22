@@ -18,7 +18,6 @@ const TeamsSite = ({ altText,name, text}: TeamsProps) => {
                 <UserCheck  size={40} color="#46a96a"/>
                 <div className={"ml-4 flex flex-col justify-around"}>
                     <h1 className={"text-green-10 font-bold"}>{altText.toUpperCase()}</h1>
-                    {/*<p className={"text-[#999999] text-[16px]"}>{altText.toUpperCase()}</p>*/}
                     <div className={"flex flex-row"}>
                         {Array.from({length: 5}).map((_, index) => (
                             <Star color="#ffc107" size={16} key={index}/>

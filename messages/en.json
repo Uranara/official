@@ -3,15 +3,15 @@
     "CompanyName": "FREENA (NINGBO) TECHNOLOGY LTD",
     "nav1": "Home",
     "nav2": "About Us",
-    "nav3": "Services",
-    "nav3_1": "Service Content",
-    "nav3_2": "Product Value",
-    "nav3_3": "System Applications",
+    "nav2_1": "service Content ",
+    "nav2_2": "Product Value",
+    "nav2_3": "System Applications",
+    "nav3": "Case",
+    "nav3_1": "Case Consultation",
     "nav4": "News",
-    "nav4_1": "Classic Cases",
-    "nav4_2": "Media Center",
-    "nav4_3": "Case Consultation",
+    "nav4_1": "Media Center",
     "nav5": "Contact",
+    "nav5_1": "Talent Recruitment",
     "login": "Login"
   },
   "Hero": {
@@ -146,9 +146,14 @@
       "text": "Due to the perfect interaction of the three systems (fresh air system, radiant panel, water mixing center system), reduce the dependence on the passive room technology."
     }
   },
-  "CasePage": {
-    "title": "Our Case",
-    "subtitle": "Showcases a variety of projects that we have completed for our clients."
+  "NewsPage": {
+    "title": "Company News",
+    "subtitle": "New technologies drive industry innovation, and green technology becomes the breakthrough point for industry transformation.",
+    "text": "Introduction to Freena (Ningbo) Technology Co., Ltd",
+    "p1": "Freena (Ningbo) Technology Co., Ltd. is a high-tech enterprise that integrates the research and development, production, sales, and service of Wuheng intelligent air conditioners. With forward-looking and leading technological advantages, it is at the forefront of the industry and has a complete set of independently invented core patented technology products. The company is driven by core technology, led by advanced brands, and guided by intelligent services, providing one-stop solutions for upgrading future life in all formats, cycles, intelligence, and digitization, committed to becoming a leader in intelligent manufacturing.",
+    "p2": "Freena is a Wuheng intelligent air conditioning brand under Furuna Technology. It has been highly praised by customers for its characteristics such as constant temperature, humidity, oxygen, cleanliness, and stillness. It reduces energy consumption by 80% compared to traditional air conditioners, completely solving common problems such as condensation, condensation, mold, poor performance stability, insufficient fresh air replacement, odor, inability to open doors and windows at will, and difficulty in after-sales maintenance of the integrated fresh air system. This can make its operation more stable and energy-saving.",
+    "p3": "Freena has developed and produced a complete set of core patented technology products to promote energy conservation and environmental protection in active housing technology. Only by leading can we reach the peak.\n\n1. Full radiation heating and cooling, with a temperature fluctuation value of only 0.5 ℃, and a comfort level higher than the European standard A+level.\n\n2. New air replacement, completely replacing the old indoor air, truly achieving forest oxygen bar style breathing.\n\n3. Fully intelligent dew point, real-time monitoring of 8 indicators, adaptive humidity control dew point, never condensing.\n\n4. A complete set of core patented technologies, with self-developed and self-produced equipment.\n\n5. The Italian expert research and development team, the father of radiation air conditioning in the world, has the same origin technology and continuous research and development capabilities.\n\n",
+    "p4": "Constant temperature throughout the four seasons, like spring: 25 ℃ in summer and 20 ℃ in winter, with no temperature difference indoors, and independent zone real-time control.\n\nMoisturizing and Constant Humidity Suitable: Comfortable humidity: 55% RH in summer and 30% RH in winter, bid farewell to the troubles of dryness and humidity.\n\nConstant oxygen fresh air: continuously replace fresh air (1200 cubic meters of fresh air can be replaced in 1 hour), completely eliminate odors.\n\nSpace grade constant cleanliness and dust-free: G4 and F8 grade dual high-efficiency filtration, dust-free even without cleaning for 30 days.\n\nThe environment is always quiet and worry free: the working noise is less than 30dB, almost imperceptible, quiet and good for sleep.\n\nStable operation: Using luxury car parts suppliers, the system operates stably and can open windows without condensation or mold\n\nEnvironmental Protection and Energy Conservation: The third-generation temperature control panel technology effectively saves 80% of energy. In the future, equipped with photovoltaic and energy storage, it can achieve zero energy consumption.\n\nSecurity guarantee: Real time monitoring of data, proactive warning of abnormal fluctuations, and initiation of response measures.\n\nDynamic intelligence: aerospace industry grade precision computing, all-weather adaptive system, ensuring precise and stable operation.\n\nMinimalist design: can match any decoration style, beautiful and simple, without occupying indoor space.\n\n"
   },
   "ContactPage": {
     "title": "Contact Us",
@@ -236,5 +241,15 @@
     "p4": "Freena continues to promote a humanized intelligent experience, pioneering the application of over three languages in programs to meet the requirements of aerospace industry grade operating systems. The system is endowed with a human like \"brain,\" \"eyes,\" and \"limbs,\" enabling adaptation between the system and humans. Real time indoor air data collection is completed in 3 seconds, and operation instructions are given to various components of the system based on data feedback analysis, without the need for any operation.\n\n",
     "p5": "The company is driven by core technology, guided by ecological development, and guided by intelligent services, providing a comfortable, healthy, and convenient one-stop solution for future urban life upgrades. As an innovative technology in the field of architecture, with its outstanding energy-saving performance and profound understanding of the environment, it helps buildings achieve the goal of near zero carbon emissions and is leading the future development of green buildings.\n\n",
     "p6": "The Freena indoor environment adaptive system, with its excellent performance and intelligent control system, can be widely used in office, medical, leisure and entertainment, cultural and other fields, such as office buildings, high-end hotels, clubs, hospitals, sanatoriums, postpartum centers, museums, opera houses and other space scenes. Its constant temperature, humidity, oxygen, cleanliness, cleanliness, and adaptive intelligent control characteristics not only meet the pursuit of health, comfort, and efficiency in modern indoor living environments, but also become a model for promoting sustainable urban development."
+  },
+  "RecruitPage": {
+    "title": "Talent Recruitment",
+    "subtitle": "Join us and set sail for our dreams",
+    "label1": "Position:",
+    "name1": "Sales Elites",
+    "placeholder1": "Name*",
+    "placeholder2": "Email*",
+    "placeholder3": "Job Title*",
+    "buttonText": "Send Message"
   }
 }

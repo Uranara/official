@@ -4,15 +4,13 @@ import Link from "next/link";
 import Image from "next/image";
 import Button from "@/components/Button";
 import LocalSwitcher from "@/components/LocalSwitcher";
-import {AlignJustify, ChevronDown, Languages, UserRound} from "lucide-react";
+import {AlignJustify, ChevronDown, UserRound} from "lucide-react";
 import {useLocale} from 'next-intl';
 import {useTranslations} from 'next-intl';
 
 const Navbar = () => {
 
     const localActive = useLocale()
-
-
     const [isScrolled, setIsScrolled] = useState(false)
     useEffect(() => {
         const handleScroll = () => {
@@ -40,54 +38,61 @@ const Navbar = () => {
                             {t('nav1')}
                         </Link>
                     </li>
-                    <li className={"ml-6 pl-6"}>
+                    <li className={"group ml-3 pl-3"}>
                         <Link href={`/${localActive}/about`} key={"About Us"}
                               className={"nav-link"}>
                             {t('nav2')}
-                        </Link>
-                    </li>
-                    <li className={"group ml-6 pl-6"}>
-                        <Link href={`/${localActive}/services`} key={"Services"} className={"nav-link"}>
-                            {t('nav3')}
                             <ChevronDown/>
                         </Link>
                         <ul className={"absolute p-8  space-y-4  rounded-xl  bg-white shadow-xl hidden group-hover:block"}>
                             <li><Link href={`/${localActive}/content`} key={"Content"}
-                                      className={"base-link"}> {t('nav3_1')}</Link></li>
+                                      className={"base-link"}> {t('nav2_1')}</Link></li>
                             <li><Link href={`/${localActive}/value`} key={"Value"}
-                                      className={"base-link"}>{t('nav3_2')}</Link></li>
+                                      className={"base-link"}>{t('nav2_2')}</Link></li>
                             <li><Link href={`/${localActive}/system`} key={"System"}
-                                      className={"base-link"}>{t('nav3_3')}</Link></li>
+                                      className={"base-link"}>{t('nav2_3')}</Link></li>
+                        </ul>
+
+                    </li>
+                    <li className={"group ml-3 pl-3"}>
+                        <Link href={`/${localActive}/cases`} key={"Cases"} className={"nav-link"}>
+                            {t('nav3')}
+                            <ChevronDown/>
+                        </Link>
+                        <ul className={"absolute p-8  space-y-4  rounded-xl  bg-white shadow-xl hidden group-hover:block"}>
+                            <li><Link href={`/${localActive}/consult`} key={"consult"}
+                                      className={"base-link"}>{t('nav3_1')}</Link></li>
                         </ul>
 
                     </li>
 
-                    <li className={"group ml-6 pl-6"}>
+                    <li className={"group ml-3 pl-3"}>
                         <Link href={`/${localActive}/news`} key={"News"} className={"nav-link"}>
                             {t('nav4')}
                             <ChevronDown/>
                         </Link>
                         <ul className={"absolute p-8  space-y-4  rounded-xl  bg-white shadow-xl hidden group-hover:block"}>
-                            <li><Link href={`/${localActive}/cases`} key={"Projects"}
+                            <li><Link href={`/${localActive}/media`} key={"Media"}
                                       className={"base-link"}>{t('nav4_1')}</Link></li>
-                            <li><Link href={`/${localActive}/media`} key={"Single Projects"}
-                                      className={"base-link"}>{t('nav4_2')}</Link></li>
-                            <li><Link href={`/${localActive}/consult`} key={"success cases"}
-                                      className={"base-link"}>{t('nav4_3')}</Link></li>
                         </ul>
                     </li>
 
-                    <li className={"ml-6 pl-6"}>
+                    <li className={"group ml-3 pl-3"}>
                         <Link href={`/${localActive}/contact`} key={"Contact Us"} className={"nav-link"}>
                             {t('nav5')}
+                            <ChevronDown/>
                         </Link>
+                        <ul className={"absolute p-8  space-y-4  rounded-xl  bg-white shadow-xl hidden group-hover:block"}>
+                            <li><Link href={`/${localActive}/recruit`} key={"Recruit"}
+                                      className={"base-link"}>{t('nav5_1')}</Link></li>
+                        </ul>
                     </li>
 
+
                 </ul>
-                <div className={""}>
-                    {/*<Languages size={32} color="#46a96a" />*/}
-                    <LocalSwitcher></LocalSwitcher>
-                </div>
+
+                <LocalSwitcher></LocalSwitcher>
+
 
                 <div className={"lg:flexCenter hidden"}>
                     <Button
