@@ -44,7 +44,6 @@ const Blogs = () => {
                     <p  className={"text-[15px] leading-10 mb-14 text-blue-75"}>{t('subtitle')}</p>
                 </div>
                 <div className={"grid grid-cols-3 gap-4"}>
-
                     <BlogsSite imageSrc={"/work1.jpg"}
                                department={t('department1')}
                                title={t('title1')}
@@ -63,10 +62,8 @@ const Blogs = () => {
                                author={"Joni"}
                                date={"Dec 22, 2022"}
                                text={t('text3')}/>
-
                 </div>
             </div>
-
         </section>
     );
 };
