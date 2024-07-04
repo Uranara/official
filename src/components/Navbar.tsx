@@ -54,24 +54,17 @@ const Navbar = () => {
                         </ul>
 
                     </li>
-                    <li className={"group ml-3 pl-3"}>
+                    <li className={"ml-3 pl-3"}>
                         <Link href={`/${localActive}/cases`} key={"Cases"} className={"nav-link"}>
                             {t('nav3')}
 
                         </Link>
-
-
                     </li>
 
-                    <li className={"group ml-3 pl-3"}>
+                    <li className={"ml-3 pl-3"}>
                         <Link href={`/${localActive}/news`} key={"News"} className={"nav-link"}>
                             {t('nav4')}
-                            <ChevronDown/>
                         </Link>
-                        <ul className={"absolute p-8  space-y-4  rounded-xl  bg-white shadow-xl hidden group-hover:block"}>
-                            <li><Link href={`/${localActive}/media`} key={"Media"}
-                                      className={"base-link"}>{t('nav4_1')}</Link></li>
-                        </ul>
                     </li>
 
                     <li className={"group ml-3 pl-3"}>

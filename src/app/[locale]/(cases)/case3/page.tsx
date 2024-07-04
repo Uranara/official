@@ -22,7 +22,7 @@ const Page = () => {
                     </div>
                     <div className={"flex justify-center pt-10 pb-10"}>
                         <Image src={"/Jinmao.png"} alt={"panel"} width={"800"} height={"600"}
-                               className={"rounded-2xl"}></Image>
+                               className={"rounded-2xl w-2/3 h-1/2 min-h-52"}></Image>
                     </div>
 
                 </div>

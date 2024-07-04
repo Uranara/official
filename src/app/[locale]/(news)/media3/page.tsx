@@ -1,7 +1,6 @@
 import React from 'react';
 import {useTranslations} from 'next-intl';
 import PageHeader from "@/components/PageHeader";
-import Image from "next/image";
 import Article from "@/components/Article";
 const Page = () => {
     const t = useTranslations('ConsultPage');
@@ -26,8 +25,8 @@ const Page = () => {
                         href={"consult"}/>
             <div className={" max-container padding-container "}>
 
-                    <Article title={t('title')} subtitle={t('text')} content={articleData.content} />
-                </div>
+                <Article title={t('title')} subtitle={t('text')} content={articleData.content} />
+            </div>
         </>
     );
 };

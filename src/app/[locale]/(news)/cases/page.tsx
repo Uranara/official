@@ -16,7 +16,7 @@ const CasePageSite = ({imageSrc, link, title, text}: BlogsProps) => {
     const localActive = useLocale()
     return (
         <article className={"mb-6"}>
-            <Image className={"rounded-t-2xl"} src={imageSrc} alt={"work1"} width={380} height={240}/>
+            <Image className={"rounded-t-2xl "} src={imageSrc} alt={"work1"} width={380} height={240}/>
             <div className={"w-[380px] bg-gray-2 p-8 rounded-b-2xl"}>
                 <Link href={`/${localActive}/${link}`} key={"case"}
                       className={"text-green-10 text-[22px] hover:underline"}>{title}</Link>
